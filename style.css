@@ -1,0 +1,267 @@
+/* TGR札幌劇場祭 受賞歴 — build.py で生成される index.html 用スタイル */
+
+:root {
+  --wrap: 880px;
+  --bg: #f7f5f0;
+  --card: #fffdf9;
+  --fg: #262b36;
+  --muted: #6b7280;
+  --border: #e3ddce;
+  --border-strong: #c6bfae;
+  --accent: #33507a;
+  --row-hover: #f3efe4;
+  --gold: #b8943f;
+  --gold-ink: #7c5f20;
+  --grand-bg: #f7efd8;
+  --grand-hover: #f2e7c8;
+  --shadow: 0 1px 2px rgba(20, 25, 40, .05);
+  --serif: "Hiragino Mincho ProN", "Hiragino Mincho Pro",
+    "Yu Mincho", YuMincho, "Noto Serif JP", "Noto Serif CJK JP", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12151d;
+    --card: #1a1f2b;
+    --fg: #dfe4ee;
+    --muted: #9aa5b5;
+    --border: #2e3547;
+    --border-strong: #434c63;
+    --accent: #93b4de;
+    --row-hover: #222839;
+    --gold: #c9a556;
+    --gold-ink: #d9ba6f;
+    --grand-bg: #332d1b;
+    --grand-hover: #3d3620;
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans CJK JP",
+    "Yu Gothic", "Yu Gothic Medium", Meiryo, sans-serif;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+  margin: 0;
+  padding: 0 0 72px;
+}
+
+/* ヘッダー以外を中央カラムに揃える（ヘッダーは画面全幅） */
+.layout, footer {
+  width: min(var(--wrap), calc(100% - 40px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 劇場の暗がりをイメージしたヘッダー帯 */
+header {
+  background: linear-gradient(165deg, #23283a 0%, #1a1d29 55%, #151824 100%);
+  border-bottom: 3px solid var(--gold);
+  padding: 56px max(20px, calc((100% - var(--wrap)) / 2)) 44px;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-family: var(--serif);
+  font-feature-settings: "palt";
+  font-size: clamp(1.6rem, 1.15rem + 2vw, 2.05rem);
+  font-weight: 600;
+  letter-spacing: .08em;
+  color: #f2eede;
+  margin: 0 0 .6em;
+}
+
+header p {
+  color: #b6bdcc;
+  margin: .55em 0;
+  font-size: .95rem;
+}
+header .lead { color: #d5d0bd; }
+
+h2 {
+  font-family: var(--serif);
+  font-feature-settings: "palt";
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  margin: 0 0 .6em;
+  padding-left: .55em;
+  border-left: 3px solid var(--gold);
+}
+
+p { margin: .6em 0; }
+ul { margin: .4em 0 .8em; padding-left: 1.6em; }
+li { margin: .25em 0; }
+a { color: var(--accent); }
+
+/* サイド目次：狭い画面では横スクロールのピル型ナビ */
+.sidenav-title { display: none; }
+.yearnav {
+  display: flex;
+  gap: .45rem;
+  overflow-x: auto;
+  padding: .4rem .1rem .6rem;
+  margin-top: 0;
+  scrollbar-width: none;
+}
+.yearnav::-webkit-scrollbar { display: none; }
+.yearnav a {
+  flex: 0 0 auto;
+  padding: .28em .9em;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--fg);
+  text-decoration: none;
+  font-size: .85rem;
+  white-space: nowrap;
+  transition: background-color .15s, border-color .15s, color .15s;
+}
+.yearnav a:hover {
+  background: var(--grand-bg);
+  border-color: var(--gold);
+  color: var(--gold-ink);
+}
+
+/* PCフル表示：左に固定の年別目次 */
+@media (min-width: 1080px) {
+  .layout {
+    display: flex;
+    gap: 2.4rem;
+    align-items: flex-start;
+    width: min(1180px, calc(100% - 48px));
+  }
+  .sidenav {
+    position: sticky;
+    top: 28px;
+    flex: 0 0 132px;
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+  .sidenav-title {
+    display: block;
+    font-family: var(--serif);
+    font-size: .8rem;
+    letter-spacing: .18em;
+    color: var(--muted);
+    margin: 0 0 .7em;
+    padding-left: .2em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: .5em;
+  }
+  .yearnav {
+    flex-direction: column;
+    gap: .05rem;
+    overflow-x: visible;
+    padding: 0;
+  }
+  .yearnav a {
+    display: block;
+    border: none;
+    border-radius: 6px;
+    background: none;
+    padding: .32em .8em;
+    color: var(--muted);
+  }
+  .yearnav a:hover {
+    background: var(--grand-bg);
+    color: var(--gold-ink);
+  }
+  .content { flex: 1; min-width: 0; }
+  .content > section:first-child { margin-top: 0; }
+  header { padding-left: max(24px, calc((100% - 1180px) / 2 + 170px)); }
+}
+
+/* セクションカード */
+section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 24px 26px;
+  margin-top: 1.8rem;
+  scroll-margin-top: 20px;
+}
+section:target { border-color: var(--gold); }
+section#about { font-size: .95rem; }
+
+.note {
+  font-size: .85rem;
+  color: var(--muted);
+  margin: .3em 0 .7em;
+}
+
+/* テーブル（外枠＋横罫線のみ。モバイルは横スクロール） */
+.table-wrap { overflow-x: auto; margin: .9em 0 1.1em; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 34em;
+  font-size: .9rem;
+  border: 1px solid var(--border);
+}
+th, td {
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  border-bottom: 1px solid var(--border-strong);
+  font-weight: 600;
+  font-size: .82rem;
+  letter-spacing: .04em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover td { background: var(--row-hover); }
+
+/* 大賞行：金色の背景と賞名の装飾 */
+tr.grand td {
+  background: var(--grand-bg);
+  font-weight: bold;
+}
+tbody tr.grand:hover td { background: var(--grand-hover); }
+tr.grand td:first-child { color: var(--gold-ink); }
+tr.grand td:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 1.05em;
+  margin-right: .55em;
+  border-radius: 1px;
+  background: var(--gold);
+  vertical-align: -0.18em;
+}
+
+.sources {
+  font-size: .82rem;
+  color: var(--muted);
+}
+.sources ul { margin: .2em 0 0; }
+.sources a { color: var(--accent); word-break: break-all; }
+
+footer {
+  margin-top: 3.5em;
+  padding-top: 1.4em;
+  border-top: 1px solid var(--border);
+  font-size: .8rem;
+  color: var(--muted);
+  text-align: center;
+}
+footer p { margin: .4em 0; }
+
+@media (max-width: 640px) {
+  body { padding-bottom: 56px; }
+  header { padding: 40px 20px 34px; }
+  section { padding: 16px; }
+  h2 { font-size: 1.2rem; }
+}

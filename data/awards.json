@@ -1,0 +1,1459 @@
+{
+  "meta": {
+    "title": "TGR札幌劇場祭 受賞歴",
+    "updated": "2026-09-24",
+    "description": "札幌劇場祭（TGR / Theater Go Round）2006年から2025年までの受賞結果一覧。非公式のまとめ。",
+    "lead": "本ページは非公式のまとめです。受賞情報の正確性・最新情報は各出典をご確認ください。",
+    "intro": "札幌劇場祭（TGR / Theater Go Round）は、札幌劇場連絡会が主催する演劇祭で、「さっぽろアートステージ」の舞台芸術部門として2006年に開始しました。毎年、大賞をはじめとする各賞が授与されています。本ページは2006年から2025年までの受賞結果を年別に一覧化したものです。",
+    "intro_md": "札幌劇場祭（TGR / Theater Go Round）は、札幌劇場連絡会が主催し「さっぽろアートステージ」の舞台芸術部門として2006年に開始した演劇祭。毎年、大賞をはじめとする各賞が授与されている。",
+    "footer": "本ページはTGR札幌劇場祭の受賞歴を個人が調査・まとめた非公式のものです。TGR札幌劇場祭は札幌劇場連絡会（さっぽろアートステージ舞台芸術部門）が主催するイベントで、本ページは主催者・関係各所とは関係ありません。記載内容は各年の公式発表・劇団公式サイト等を出典としています。",
+    "system_notes": [
+      {
+        "head": "大賞／演劇大賞／札幌舞台芸術賞 演劇大賞",
+        "body": "最上位賞。年代により名称が異なる。"
+      },
+      {
+        "head": "特別賞／優秀賞",
+        "body": "2016年までは「特別賞（作品賞・企画賞・演出賞・脚本賞等）」の名称。2017年に「優秀賞」へ改称し、同時に「特別賞」は別枠として残存。"
+      },
+      {
+        "head": "審査員賞／審査員奨励賞／審査員特別賞／審査員特別奨励賞",
+        "body": "審査員個別推薦に近い賞。年代で名称が変わる。"
+      },
+      {
+        "head": "新人賞／神谷新人奨励賞",
+        "body": "新人賞は当初「結成3年以内」の団体が対象。2022年頃から「神谷新人奨励賞」と表記。"
+      },
+      {
+        "head": "俳優賞",
+        "body": "2017年新設。大賞エントリー作品の出演者から選出（複数名の年あり）。"
+      },
+      {
+        "head": "オーディエンス賞",
+        "body": "2011年新設。観客アンケート（星5つ満点）による2賞。2020〜2022年は休止。",
+        "children": [
+          {
+            "head": "ホームラン王／ホームラン王賞／ホームラン賞",
+            "body": "獲得した星の総数が最多の作品。"
+          },
+          {
+            "head": "首位打者／首位打者賞／リーディングヒッター賞",
+            "body": "星の平均点が最高の作品。"
+          }
+        ]
+      },
+      {
+        "head": "審査方式",
+        "body": "2010年から2016年までは予備審査でノミネート5作程度を選び、公開審査会で討議・投票。2017年以降は公開審査会を廃止し、授賞式で結果発表（選評は後日WEB掲載）。"
+      }
+    ],
+    "legend": {
+      "◎": "公式サイト/公式アーカイブ",
+      "○": "劇団公式等の一次情報",
+      "△": "二次情報源（要検証）"
+    }
+  },
+  "years": [
+    {
+      "year": 2006,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "弦巻楽団",
+          "work": "『#3 死にたいヤツら』",
+          "acc": "○",
+          "grand": true,
+          "ev": "後年「TGR2006 大賞」と表記"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "劇団リベラルシアター",
+          "work": "『FF』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "弦巻楽団公式",
+          "url": "https://tsurumaki-gakudan.com/03shinitai/"
+        },
+        {
+          "label": "ブログ記事（livedoor）",
+          "url": "https://blog.livedoor.jp/shoot_the_works/archives/50324554.html"
+        },
+        {
+          "label": "劇団リベラルシアター公式",
+          "url": "https://liberaltheater.web.fc2.com/"
+        },
+        {
+          "label": "札幌市『広報さっぽろ』2006年10月号"
+        }
+      ],
+      "research_notes": [
+        "北海道新聞2006年12月2日付記事で、弦巻楽団が「大賞」、リベラルシアターが「新人賞」を受賞したことを確認。従来の「単一賞制だった可能性が高い」という推定は撤回する。リベラルシアターの受賞対象作『FF』は、札幌市のTGR2006参加作品一覧および劇団公式記録から確認。"
+      ],
+      "label": "TGR初年度／当時の賞名は「ライフコート札幌舞台芸術賞」"
+    },
+    {
+      "year": 2007,
+      "label": "参加40作品中28作品が大賞エントリー／当時の賞名は「ライフコート札幌舞台芸術賞」",
+      "rows": [
+        {
+          "award": "演劇大賞",
+          "recipient": "演劇ユニット イレブン☆ナイン",
+          "work": "『あっちこっち佐藤さん』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "特別賞",
+          "recipient": "劇団青羽（チョンウ・韓国）",
+          "work": "『足跡のなかで』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "札幌オペラスタジオ",
+          "work": "『秘密の結婚』",
+          "acc": "◎"
+        }
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ旧公式ページ（2007年受賞結果）",
+          "url": "http://www.s-artstage.com/theater.html"
+        },
+        {
+          "label": "CoRich劇団プロフィール（劇団プロスペクトTPS）",
+          "url": "https://stage.corich.jp/troupe/298"
+        }
+      ],
+      "research_notes": [
+        "TPS『西線11条のアリア』は劇団プロフィールに「優秀賞」とあるが、公式記録の受賞リストには記載なし。「最後まで大賞を争った」とのみ記録されており受賞ではなかったと判断"
+      ]
+    },
+    {
+      "year": 2008,
+      "rows": [
+        {
+          "award": "作品賞",
+          "recipient": "劇団プロスペクトTPS",
+          "work": "『秋のソナチネ』",
+          "acc": "○",
+          "ev": "アクトコール業績一覧に「札幌劇場祭2008札幌舞台芸術賞・作品賞受賞記念公演 TPS『秋のソナチネ』」と記載",
+          "grand": true
+        },
+        {
+          "award": "特別賞",
+          "recipient": "演劇ユニット イレブン☆ナイン",
+          "work": "『サイレンとサイレント』",
+          "acc": "○",
+          "ev": "劇団公式・CoRich記載"
+        },
+        {
+          "award": "舞台美術賞",
+          "recipient": "中川有子",
+          "work": "弦巻楽団『#8 子供のように話したい』の舞台美術",
+          "acc": "○",
+          "ev": "弦巻楽団公式記載"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CoRich劇団プロフィール（劇団プロスペクトTPS）",
+          "url": "https://stage.corich.jp/troupe/298"
+        },
+        {
+          "label": "イレブン☆ナイン公式",
+          "url": "https://eleven9.jp/"
+        },
+        {
+          "label": "弦巻楽団公式",
+          "url": "https://tsurumaki-gakudan.com/08kodomonoyouni/"
+        },
+        {
+          "label": "foot.hatenadiary.org（2008/12/8 記事）",
+          "url": "https://foot.hatenadiary.org/entry/20081208/1228746949"
+        },
+        {
+          "label": "アクトコール 業績一覧",
+          "url": "http://www.actcall.net/works"
+        }
+      ],
+      "research_notes": [
+        "2008年当時の公式「全受賞一覧」そのものは未発見。ただし、複数の劇団・関係者資料および当時周辺記事を横断して確認できる受賞は上記3賞のみで、他賞の存在を示す記録は確認されていない。本データではこの3賞を2008年の受賞歴として採用する。"
+      ],
+      "notes": [
+        "この年は大賞の授与記録がなく、作品賞が最上位の賞（翌年に受賞記念公演を実施）"
+      ]
+    },
+    {
+      "year": 2009,
+      "rows": [
+        {
+          "award": "演劇大賞",
+          "recipient": "劇団千年王國",
+          "work": "『贋作者』",
+          "acc": "○",
+          "grand": true,
+          "ev": "劇団公式・CoRich記載"
+        },
+        {
+          "award": "脚本賞",
+          "recipient": "劇団動物園",
+          "work": "『ホテル山もみじ別館』",
+          "acc": "○",
+          "ev": "劇団動物園サイト記載"
+        },
+        {
+          "award": "演出賞",
+          "recipient": "劇団プロスペクトTPS",
+          "work": "『蟹と無言歌』（演出：キム・カンボ）",
+          "acc": "○",
+          "ev": "TPS/札幌座プロフィール記載"
+        },
+        {
+          "award": "美術賞",
+          "recipient": "矢吹英孝",
+          "work": "やまびこ座・こぐま座プロデュース『金のひしゃく銀のひしゃく』",
+          "acc": "○"
+        },
+        {
+          "award": "パフォーマンス賞",
+          "recipient": "白A",
+          "work": "『テクノデリックコメディーショー』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Fringe（2009/12/10 受賞結果記事）",
+          "url": "https://fringe.jp/topics/headlines/20091210.html"
+        },
+        {
+          "label": "CoRich劇団プロフィール（劇団千年王國）",
+          "url": "https://stage.corich.jp/troupe/79"
+        },
+        {
+          "label": "CoRich劇団プロフィール（劇団プロスペクトTPS）",
+          "url": "https://stage.corich.jp/troupe/298"
+        },
+        {
+          "label": "北海道大学テラス",
+          "url": "https://www.hokudai.ac.jp/terrace/performer/781/"
+        }
+      ],
+      "research_notes": [
+        "2009年12月10日の当時記事が上記5賞を一括して受賞結果として列挙。矢吹英孝の美術賞対象作品も『金のひしゃく銀のひしゃく』と確認できた。2011年資料からオーディエンス賞は2011年新設と確認されているため、2009年には存在しない。"
+      ]
+    },
+    {
+      "year": 2010,
+      "rows": [
+        {
+          "award": "演劇大賞",
+          "recipient": "劇団プロスペクトTPS",
+          "work": "『クリスマス・キャロル』",
+          "acc": "○",
+          "grand": true,
+          "ev": "CoRich「札幌劇場祭2010 札幌舞台芸術賞 演劇大賞 受賞作」記載"
+        },
+        {
+          "award": "特別賞（作品賞）",
+          "recipient": "座・れら",
+          "work": "『空の記憶』",
+          "acc": "○",
+          "ev": "座・れら公式記載"
+        },
+        {
+          "award": "特別賞（脚本賞）",
+          "recipient": "弦巻楽団",
+          "work": "『音楽になってくれないか』",
+          "acc": "○",
+          "ev": "弦巻楽団公式記載"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "札幌学生演劇祭",
+          "work": "『ハイパーリアル』",
+          "acc": "○",
+          "ev": "2010年12月5日授賞式実況投稿より「結成3年以内の団体から選ばれる新人賞」と明記"
+        },
+        {
+          "award": "サプライズ賞",
+          "recipient": "竹内実花（舞踏）×まっつ（ヨミガタリスト）",
+          "work": "『にんぎょひめ』",
+          "acc": "○",
+          "ev": "後年の関係者サイトに「2010年にアートステージ・サプライズ賞を獲得」「初演時（TGR2010）」と明記。審査委員長・桑田信治の評も転載"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CoRich劇団プロフィール（劇団プロスペクトTPS）",
+          "url": "https://stage.corich.jp/troupe/298"
+        },
+        {
+          "label": "座・れら公式",
+          "url": "https://zarela2009.wixsite.com/za-rela/blank"
+        },
+        {
+          "label": "弦巻楽団公式",
+          "url": "https://tsurumaki-gakudan.com/"
+        },
+        {
+          "label": "秋山孝二の部屋（2010年授賞式記事）",
+          "url": "http://blog.akiyama-foundation.org/weblog/?p=6621"
+        },
+        {
+          "label": "『にんぎょひめ』関係者サイト",
+          "url": "https://www.ne.jp/asahi/butoh/itto/butoh_jp3.htm"
+        },
+        {
+          "label": "札幌市 公式事業記録（PDF）",
+          "url": "https://www.city.sapporo.jp/chosei/new-plan/h23soukatu/documents/186_511.pdf"
+        },
+        {
+          "label": "X上の授賞式実況投稿（2010年12月5日）"
+        }
+      ],
+      "research_notes": [
+        "札幌市の公式事業記録では2010年の選定結果を「大賞1・新人賞1・特別賞2」と整理している。一方、『にんぎょひめ』関係者サイトに転載された「さっぽろアートステージ2010からの引用」では「審査員からのサプライズ賞が与えられました」と明記されているため、サプライズ賞は正式コンペ4枠とは別に審査員が授与した賞と整理する。成文化された制度上の選考基準は未確認。"
+      ],
+      "label": "公開審査会を初導入"
+    },
+    {
+      "year": 2011,
+      "label": "オーディエンス賞新設年／新人賞は結成3年以内の団体が対象",
+      "rows": [
+        {
+          "award": "演劇大賞",
+          "recipient": "劇団千年王國",
+          "work": "『狼王ロボ』",
+          "acc": "○",
+          "grand": true
+        },
+        {
+          "award": "特別賞（演出賞）",
+          "recipient": "intro",
+          "work": "『蒸発』",
+          "acc": "○"
+        },
+        {
+          "award": "特別賞（作品賞）",
+          "recipient": "劇団弘前劇場（青森）",
+          "work": "『海辺の日々』",
+          "acc": "○"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "劇団アトリエ",
+          "work": "『もういちど』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "yhs",
+          "work": "『忘れたいのに思い出せない』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "AND",
+          "work": "『ばらひまわり』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "座・れら",
+          "work": "『トランス』",
+          "acc": "○",
+          "ev": "座・れら公式記載"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王賞",
+          "recipient": "劇団千年王國",
+          "work": "『狼王ロボ』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 リーディングヒッター賞",
+          "recipient": "劇団千年王國",
+          "work": "『狼王ロボ』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "秋山孝二の部屋（2011年12月記事）",
+          "url": "http://blog.akiyama-foundation.org/weblog/?m=201112"
+        },
+        {
+          "label": "座・れら公式",
+          "url": "https://zarela2009.wixsite.com/za-rela/blank"
+        }
+      ],
+      "research_notes": [
+        "当時審査員・秋山孝二の2011年12月5日記事では『トランス』を「審査員奨励賞」として全受賞一覧に記載し、当時TGR公式結果にもリンクしている。後年の座・れら公式では「審査員特別奨励賞」と表記されるため、歴史資料上は当時表記の「審査員奨励賞」を採用。"
+      ]
+    },
+    {
+      "year": 2012,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "劇団弘前劇場",
+          "work": "『素麺』",
+          "acc": "○",
+          "grand": true,
+          "ev": "弘前劇場公式・秋山ブログ等"
+        },
+        {
+          "award": "特別賞（作品賞）",
+          "recipient": "intro",
+          "work": "『モスクワ』",
+          "acc": "○"
+        },
+        {
+          "award": "特別賞（脚本賞）",
+          "recipient": "座・れら",
+          "work": "『不知火の燃ゆ』",
+          "acc": "○",
+          "ev": "座・れら公式記載"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "劇団パーソンズ",
+          "work": "『CRY WOLF！』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "人形劇なかま パラパラポナ",
+          "work": "『ルドルフとイッパイアッテナ』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "赤星マサノリ×坂口修一",
+          "work": "『貧乏ネ申 -The Poor Zombies-』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "劇団怪獣無法地帯",
+          "work": "『The Lady・Blues～彼女に何が起こったか～』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "劇団千年王國",
+          "work": "『火盗人』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "人形劇集団チーム・パース",
+          "work": "『大どろぼうホッツェンプロッツ』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "秋山孝二の部屋（審査員による全受賞結果の記録）",
+          "url": "https://blog.akiyama-foundation.org/weblog/?s=弘前劇場"
+        }
+      ],
+      "research_notes": [
+        "当時の審査員・秋山孝二本人の記事が全賞を掲載しており、当時の公式結果ページ s-artstage.com/2012/news/2012/12/536/ を直接参照しているため一次情報として○に格上げ"
+      ]
+    },
+    {
+      "year": 2013,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "劇団千年王國",
+          "work": "『ローザ・ルクセンブルク』",
+          "acc": "○",
+          "grand": true
+        },
+        {
+          "award": "特別賞（企画賞）",
+          "recipient": "NPO法人コンカリーニョプロデュース",
+          "work": "『茶の間は血まみれ』",
+          "acc": "○"
+        },
+        {
+          "award": "特別賞（演出賞）",
+          "recipient": "yhs",
+          "work": "『四谷美談』",
+          "acc": "○"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "演劇集団遊罠坊",
+          "work": "『逢ノ国』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "劇団パーソンズ",
+          "work": "『私たちの賞味期限』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "劇団千年王國",
+          "work": "『ローザ・ルクセンブルク』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "VoiceWorksVivo",
+          "work": "『聖歌～That's Why We Sing!!～』",
+          "acc": "○"
+        }
+      ],
+      "notes": [
+        "特別賞受賞団体には特別協賛ローソンよりローソン特別賞（Lチキ半年分）も贈呈"
+      ],
+      "sources": [
+        {
+          "label": "舞台制作PLUS+"
+        },
+        {
+          "label": "秋山孝二の部屋（授賞式レポート）",
+          "url": "http://blog.akiyama-foundation.org/weblog/?p=18601"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "プロジェクト・アイランド（韓国・光州）",
+          "work": "『アイランド―監獄島』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "特別賞（作品賞）",
+          "recipient": "時間堂（東京）",
+          "work": "『衝突と分裂、あるいは融合』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞（演出賞）",
+          "recipient": "劇団千年王國 千年王國プロデュース",
+          "work": "『TOP GIRLS』",
+          "acc": "◎"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "RED KING CRAB",
+          "work": "『おだぶつ』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員奨励賞",
+          "recipient": "さっぽろ人形浄瑠璃芝居あしり座",
+          "work": "『座・競演vol.5』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "弦巻楽団",
+          "work": "『ナイトスイミング』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "札幌放送芸術専門学校タレント総合科2年",
+          "work": "『BORDER～時をこえたmessage～』",
+          "acc": "◎"
+        }
+      ],
+      "sources": [
+        {
+          "label": "公式受賞発表（Wayback Machine）",
+          "url": "http://web.archive.org/web/2015/http://www.s-artstage.com/2014/tgr2014/news/2014/12/257/"
+        },
+        {
+          "label": "舞台制作PLUS+（受賞結果記事）",
+          "url": "https://seisakuplus.com/news/?p=22310"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "チェーホフ劇場（ロシア・ウラジオストク）",
+          "work": "『素晴らしい未来』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "特別賞（作品賞）",
+          "recipient": "yhs",
+          "work": "『室温～夜の音楽～』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞（企画賞）",
+          "recipient": "RED KING CRAB",
+          "work": "『BAKA』",
+          "acc": "◎"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "劇団ロクデナシ",
+          "work": "『ファーレンハイト』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員賞",
+          "recipient": "琴似屯田兵入村140周年記念事業実行委員会",
+          "work": "『会津藩、かく戦へり』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員賞",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～ぼくのうまれたひ～』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "演劇ユニット イレブン☆ナイン",
+          "work": "『どう、しよう、も、ない』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "札幌スクールオブミュージック&ダンス専門学校",
+          "work": "『Master Piece』",
+          "acc": "◎"
+        }
+      ],
+      "sources": [
+        {
+          "label": "公式受賞発表（Wayback Machine）",
+          "url": "http://web.archive.org/web/20151217003755/http://www.s-artstage.com/2015/tgr2015/news/2015/12/189/"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "label": "公開審査会の最終年",
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "青年団リンク ホエイ",
+          "work": "『珈琲法要』",
+          "acc": "○",
+          "grand": true
+        },
+        {
+          "award": "特別賞（作品賞）",
+          "recipient": "劇団カチノル",
+          "work": "『お伽の棺』",
+          "acc": "○"
+        },
+        {
+          "award": "特別賞（企画賞）",
+          "recipient": "NPO法人コンカリーニョ",
+          "work": "『ちゃっかり八兵衛』",
+          "acc": "○"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "劇団・木製ボイジャー14号",
+          "work": "『拝啓 臆病者共』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員賞",
+          "recipient": "新芸能集団 乱拍子",
+          "work": "『いっすんさきは夢』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～わすれんぼうの、つぎはぎ～』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "新芸能集団 乱拍子",
+          "work": "『いっすんさきは夢』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "秋山孝二の部屋（TGR2016授賞式記事）",
+          "url": "http://blog.akiyama-foundation.org/weblog/"
+        },
+        {
+          "label": "遠藤雷太のうろうろ日記２",
+          "url": "https://endowriter2.hatenablog.jp/entry/9fcbda5ad26f361ce35ad98b5ca14a91"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "label": "「優秀賞」「俳優賞」新設、公開審査会廃止",
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "yhs",
+          "work": "『白浪っ!』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～ともだちのこえ～』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "座・れら",
+          "work": "『アンネの日記』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "MAM",
+          "work": "『月ノツカイ』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "ニッポンの河川",
+          "work": "『大地をつかむ両足と物語』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "proto Paspoor",
+          "work": "『ある映画の話』",
+          "acc": "◎"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "劇団plus+",
+          "work": "『姉妹、一肌脱ぎますッ！』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員賞",
+          "recipient": "NIN企画",
+          "work": "『『けんず』きみがそばにいた時代』より「靴」",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "高橋海妃",
+          "work": "MAM『父と暮らせば』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "櫻井保一",
+          "work": "yhs『白浪っ!』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "ELEVEN NINE presents ミャゴラ",
+          "work": "『やんなるくらい自己嫌悪』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "札幌オーギリング 休止興行",
+          "work": "『ラストアンサー』（平均4.93）",
+          "acc": "◎"
+        }
+      ],
+      "sources": [
+        {
+          "label": "公式全賞一覧（Wayback Machine）",
+          "url": "http://web.archive.org/web/20190819165711/http://www.s-artstage.com/2017/tgr/news/508"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "label": "参加31団体",
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "世界エイズデー札幌実行委員会 世界エイズデーシアター",
+          "work": "『TEA FOR TWO～二人でお茶を～』",
+          "acc": "○",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "劇団こふく劇場",
+          "work": "『劇団こふく劇場第15回公演 ただいま』",
+          "acc": "○"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "空宙空地",
+          "work": "『轟音、つぶやくよう うたう、うたう彼女は』（空宙空地3都市ツアー札幌公演）",
+          "acc": "○"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "演劇家族スイートホーム",
+          "work": "『裸足でベーラン』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員賞",
+          "recipient": "RED KING CRAB",
+          "work": "『ガラスの動物園 The Glass Menagerie』",
+          "acc": "○"
+        },
+        {
+          "award": "審査員賞",
+          "recipient": "旅木演劇工房（小島瑚乃美）",
+          "work": "『丘の上の桜の木に』",
+          "acc": "○"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "村上義典",
+          "work": "世界エイズデーシアター『TEA FOR TWO～二人でお茶を～』",
+          "acc": "○"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "木山正大",
+          "work": "RED KING CRAB『ガラスの動物園 The Glass Menagerie』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～バクバク山のオバケ～』（獲得星総数1700）",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "人形劇団ぱぺっとグース",
+          "work": "『人形劇「舌きりすずめ」ほか』（平均4.88）",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "秋山孝二の部屋（授賞式レポート）",
+          "url": "http://blog.akiyama-foundation.org/weblog/?p=34888"
+        },
+        {
+          "label": "遠藤雷太のうろうろ日記２（公式X引用）",
+          "url": "https://endowriter2.hatenablog.jp/entry/31930d80c58afe95bea37ba1b6f6bed2"
+        }
+      ],
+      "notes": [
+        "小島瑚乃美の審査員賞は、俳優賞の対象（大賞エントリー作品の出演者）外の作品での演技に贈られたもの"
+      ]
+    },
+    {
+      "year": 2019,
+      "label": "参加32作品（うち大賞エントリー15作品＋4作品）",
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "RED KING CRAB",
+          "work": "『ありあけ』",
+          "acc": "○",
+          "grand": true,
+          "ev": "遠藤雷太ブログ・RKC公式で確認"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "OrgofA",
+          "work": "『Same Time,Next Year-来年の今日もまた-』",
+          "acc": "○",
+          "ev": "OrgofA公式記載"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "演劇家族スイートホーム",
+          "work": "『わだちを踏むように』",
+          "acc": "○",
+          "ev": "劇団公式サイト記載"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "座・れら",
+          "work": "『私 ～ミープ・ヒースの物語～』",
+          "acc": "○",
+          "ev": "座・れら公式記載"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "世界エイズデー札幌実行委員会（恒本礼透）",
+          "work": "『PRESENT』",
+          "acc": "○"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "総合芸術ユニットえん（中野葉月）",
+          "work": "『半神』",
+          "acc": "○"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "ポケット企画",
+          "work": "『おもり』",
+          "acc": "○"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "飛世早哉香",
+          "work": "OrgofA『Same Time,Next Year-来年の今日もまた-』",
+          "acc": "○"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "井藤淳矢",
+          "work": "RED KING CRAB『ありあけ』",
+          "acc": "○",
+          "ev": "RKC公式記載"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン王",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～ぼくは忍者の夢見丸～』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 首位打者",
+          "recipient": "人形劇団ありんこ",
+          "work": "『おおかみと七ひきのこやぎ』ほか",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "遠藤雷太のうろうろ日記２",
+          "url": "https://endowriter2.hatenablog.jp/entry/b5cff554fee17814dfddf9176b0bec0d"
+        },
+        {
+          "label": "座・れら公式",
+          "url": "https://zarela2009.wixsite.com/za-rela/blank"
+        },
+        {
+          "label": "トランク機械シアター公式",
+          "url": "https://www.trunktheater.net/blank-2"
+        },
+        {
+          "label": "CoRich劇団プロフィール（RED KING CRAB）",
+          "url": "https://stage.corich.jp/troupe/19599"
+        },
+        {
+          "label": "演劇家族スイートホーム公式",
+          "url": "https://actfamilysweethome.wixsite.com/afsh"
+        },
+        {
+          "label": "RED KING CRAB公式",
+          "url": "https://redkingcrab.wixsite.com/redkingcrab/about"
+        },
+        {
+          "label": "OrgofA公式",
+          "url": "https://dtagmd.wixsite.com/orgofa"
+        },
+        {
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+        },
+        {
+          "label": "公式参加作品一覧（Wayback Machine）",
+          "url": "http://web.archive.org/web/20191210182403/http://s-artstage.com/2019/tgr/"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "OrgofA",
+          "work": "『Org of A 3rd.act 異邦人の庭』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "演劇ユニット41×46",
+          "work": "『雨の随に』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "弦巻楽団×北海道大学CoSTEP",
+          "work": "『インヴィジブル・タッチ』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "戸澤亮",
+          "work": "RED KING CRAB『鈍行』",
+          "acc": "○",
+          "ev": "RKC公式記載"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "さとうともこ",
+          "work": "トランク機械シアター『ねじまきロボットα～きらわれドロロンと、魔法の鏡～』",
+          "acc": "○",
+          "ev": "CoRich劇団プロフィール記載"
+        }
+      ],
+      "notes": [
+        "公式注記：『本年は、新人賞・オーディエンス賞の実施、特別賞の受賞はありません』"
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ2020（大賞・優秀賞の選評）",
+          "url": "https://s-artstage.com/2020/category/tgr2020/"
+        },
+        {
+          "label": "RED KING CRAB公式",
+          "url": "https://redkingcrab.wixsite.com/redkingcrab/about"
+        },
+        {
+          "label": "CoRich劇団プロフィール（トランク機械シアター）",
+          "url": "https://stage.corich.jp/troupe/8436"
+        },
+        {
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "ELEVEN NINES",
+          "work": "『ひかりごけ』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "Pityman",
+          "work": "『おもいだすまでまっていて』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "劇団 風蝕異人街",
+          "work": "『シェイクスピア劇「マクベス」』",
+          "acc": "◎"
+        },
+        {
+          "award": "新人賞",
+          "recipient": "ゴマに",
+          "work": "『世紀末演劇祭』",
+          "acc": "◎"
+        },
+        {
+          "award": "特別賞",
+          "recipient": "新芸能集団 乱拍子",
+          "work": "『寿』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "菊地颯平",
+          "work": "ELEVEN NINES『ひかりごけ』",
+          "acc": "○",
+          "ev": "秋山ブログ記載"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "竹江維子",
+          "work": "座・れら『おやすみ、母さん』",
+          "acc": "○",
+          "ev": "座・れら公式記載"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "おぐりまさこ",
+          "work": "OrgofA『ひびそい』（空宙空地所属）",
+          "acc": "○",
+          "ev": "OrgofA公式記載"
+        }
+      ],
+      "notes": [
+        "公式注記：『本年はオーディエンス賞の実施ありません』"
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ2021",
+          "url": "https://s-artstage.com/2021/422/"
+        },
+        {
+          "label": "秋山孝二の部屋（授賞式レポート）",
+          "url": "http://blog.akiyama-foundation.org/weblog/?p=43037"
+        },
+        {
+          "label": "座・れら公式",
+          "url": "https://zarela2009.wixsite.com/za-rela/blank"
+        },
+        {
+          "label": "OrgofA公式",
+          "url": "https://dtagmd.wixsite.com/orgofa"
+        },
+        {
+          "label": "YouTube 授賞式アーカイブ",
+          "url": "https://www.youtube.com/watch?v=055ZnryerbU"
+        },
+        {
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "弦巻楽団",
+          "work": "『#37 1/2 ピース・ピース』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "Stokes/Park",
+          "work": "『フゴッペ洞窟の翼をもつ人』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "劇団新劇場",
+          "work": "『幕末遊郭純情譚』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "THEATRE MOMENTS",
+          "work": "『遺すモノ～楢山節考より～』",
+          "acc": "◎"
+        },
+        {
+          "award": "神谷新人奨励賞（新人賞）",
+          "recipient": "立命館慶祥高校演劇部",
+          "work": "『拍手の弾丸』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員特別賞",
+          "recipient": "ダンスカンパニーKIKIKIKIKIKI",
+          "work": "『MUSUME-Dojoji』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "佐藤寧珠",
+          "work": "弦巻楽団『#37 1/2 ピース・ピース』",
+          "acc": "○",
+          "ev": "劇団・札幌演劇シーズン記載"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "中原くれあ",
+          "work": "THEATRE MOMENTS『遺すモノ～楢山節考より～』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ2022 受賞結果",
+          "url": "https://s-artstage.com/2022/457/"
+        },
+        {
+          "label": "さっぽろアートステージ2022 TGRページ",
+          "url": "https://s-artstage.com/2022/category/tgr2022/"
+        },
+        {
+          "label": "さっぽろアートステージ2023 公式パンフレット（PDF）",
+          "url": "https://s-artstage.com/2023/sapporo_art_stage_2023.pdf"
+        },
+        {
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+        }
+      ],
+      "research_notes": [
+        "オーディエンス賞はコロナ禍で休止中。2023年公式パンフレットに「新型コロナウイルスの影響により休止していた『スタンプラリー』および『オーディエンス賞』を本年より再開」と明記。なおトランク機械シアター公式に「TGR2018・2022オーディエンス賞」との記載があるが公式記録と整合せず"
+      ],
+      "notes": [
+        "オーディエンス賞は新型コロナウイルスの影響で休止（2023年より再開）"
+      ]
+    },
+    {
+      "year": 2023,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "劇団5454",
+          "work": "『宿りして』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "弦巻楽団",
+          "work": "『#38 1/2 死と乙女』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "劇団こふく劇場",
+          "work": "『第17回公演 ロマンス』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員特別賞",
+          "recipient": "長谷川恒希のひとり芝居",
+          "work": "『人間生活図鑑 新作ツアー2023』",
+          "acc": "◎"
+        },
+        {
+          "award": "神谷新人奨励賞（新人賞）",
+          "recipient": "我等、敵モドキ",
+          "work": "『惜しまれ応援』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "井上嵩之",
+          "work": "弦巻楽団『#38 1/2 死と乙女』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "渡沢陽人",
+          "work": "劇団 風蝕異人街『嘘と鸚鵡と毛皮を着たヴィーナス』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン賞",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～バクバク山のオバケ～』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 首位打者賞",
+          "recipient": "劇団HASCAP",
+          "work": "『おぉーい！ともだち!!』",
+          "acc": "◎"
+        }
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ2023 TGRページ",
+          "url": "https://s-artstage.com/2023/category/tgr2023/"
+        },
+        {
+          "label": "さっぽろアートステージ2023 受賞団体の発表",
+          "url": "https://s-artstage.com/2023/843/"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "PANCETTA",
+          "work": "『PANCETTA TOUR 2024 IN SAPPORO “声”』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～こども王国の秘宝～』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "yhs",
+          "work": "『四谷美談』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員特別賞",
+          "recipient": "劇団動物園",
+          "work": "『さよなら方舟』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員特別賞",
+          "recipient": "ダンボールシアター",
+          "work": "『Yummy!』",
+          "acc": "◎"
+        },
+        {
+          "award": "神谷新人奨励賞（新人賞）",
+          "recipient": "SSM【super sleepwalk monkeys】",
+          "work": "『バチ★バチ』",
+          "acc": "◎"
+        },
+        {
+          "award": "神谷新人奨励賞（新人賞）",
+          "recipient": "パゥピーポォズ;×優美花",
+          "work": "『いつもの場所で』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "能登英輔",
+          "work": "yhs『四谷美談』",
+          "acc": "○",
+          "ev": "yhs公式記載"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "後藤カツキ",
+          "work": "トランク機械シアター『ねじまきロボットα～こども王国の秘宝～』および劇団怪獣無法地帯『全員、青い』（2作品での受賞）",
+          "acc": "○",
+          "ev": "CoRich劇団プロフィール・公式X投稿"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン賞",
+          "recipient": "トランク機械シアター",
+          "work": "『ねじまきロボットα～こども王国の秘宝～』",
+          "acc": "○"
+        },
+        {
+          "award": "オーディエンス賞 首位打者賞",
+          "recipient": "わんわんズ",
+          "work": "『わんわんズ11周年記念公演』",
+          "acc": "○"
+        }
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ2024（選評記事）",
+          "url": "https://s-artstage.com/2024/category/tgr2024/"
+        },
+        {
+          "label": "yhs公式",
+          "url": "https://www.yhsweb.jp/about"
+        },
+        {
+          "label": "トランク機械シアター公式",
+          "url": "https://www.trunktheater.net/blank-2"
+        },
+        {
+          "label": "CoRich劇団プロフィール（トランク機械シアター）",
+          "url": "https://stage.corich.jp/troupe/8436"
+        },
+        {
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "label": "TGR20周年記念回。授賞式の模様はYouTubeで公開",
+      "rows": [
+        {
+          "award": "大賞",
+          "recipient": "ジョブキタ北八劇場",
+          "work": "『納谷版～藪の中』",
+          "acc": "◎",
+          "grand": true
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "弦巻楽団",
+          "work": "『舞台「砦なき者」』",
+          "acc": "◎"
+        },
+        {
+          "award": "優秀賞",
+          "recipient": "OrgofA",
+          "work": "『コウノトリが飛ぶ島国で、この部屋で』",
+          "acc": "◎"
+        },
+        {
+          "award": "神谷新人奨励賞（新人賞）",
+          "recipient": "劇団夕結び",
+          "work": "『ギュっとしたわたがし』",
+          "acc": "◎"
+        },
+        {
+          "award": "審査員特別賞",
+          "recipient": "該当なし",
+          "work": "",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "柴田智之",
+          "work": "ジョブキタ北八劇場『納谷版～藪の中』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "佐藤竜",
+          "work": "PANCETTA『PANCETTA special performance “Gouche”』",
+          "acc": "◎"
+        },
+        {
+          "award": "俳優賞",
+          "recipient": "梅原たくと",
+          "work": "北海道文化財団『迷惑な客』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 ホームラン賞",
+          "recipient": "弦巻楽団",
+          "work": "『舞台「砦なき者」』",
+          "acc": "◎"
+        },
+        {
+          "award": "オーディエンス賞 首位打者賞",
+          "recipient": "劇団HASCAP",
+          "work": "『おぉーい！ともだち！！』",
+          "acc": "◎"
+        }
+      ],
+      "sources": [
+        {
+          "label": "さっぽろアートステージ2025 TGRページ",
+          "url": "https://s-artstage.com/2025/tgr/"
+        },
+        {
+          "label": "さっぽろアートステージ2025 受賞結果・選評",
+          "url": "https://s-artstage.com/2025/category/tgr2025/"
+        },
+        {
+          "label": "TGR公式YouTube（2025授賞式アーカイブ）",
+          "url": "https://www.youtube.com/live/j9rs3jVYMdY"
+        }
+      ],
+      "notes": [
+        "俳優賞はTGR20周年記念として3名に贈呈"
+      ]
+    }
+  ],
+  "appendix_md": "## 情報源一覧\n\n### 公式サイト（現行）\n- https://s-artstage.com/ （さっぽろアートステージ。各年 /YYYY/ ディレクトリ）\n- 受賞結果は各年の選評記事・NEWSに掲載。俳優賞・オーディエンス賞は授賞式発表のみで公式WEB掲載がない年が多い\n- TGR公式Xアカウント: @SAPPORO_TGR（2014年10月開設。2019年以降の受賞一覧・注記投稿。2014年以前は投稿なし）\n- さっぽろアートステージ2023公式パンフレットPDF: https://s-artstage.com/2023/sapporo_art_stage_2023.pdf\n\n### Wayback Machine（公式アーカイブ）\n- http://web.archive.org/web/20190819165711/http://www.s-artstage.com/2017/tgr/news/508 （2017全賞）\n- http://web.archive.org/web/20151217003755/http://www.s-artstage.com/2015/tgr2015/news/2015/12/189/ （2015全賞）\n- http://web.archive.org/ 内 http://www.s-artstage.com/2014/tgr2014/ 受賞発表記事（2014全賞）\n- http://web.archive.org/web/20191210182403/http://s-artstage.com/2019/tgr/ （2019概要）\n- http://www.s-artstage.com/theater.html （2007公式・Shift_JIS）\n\n### 二次情報源・劇団サイト\n- 秋山孝二の部屋（財団法人秋山財団理事長の演劇ブログ）: http://blog.akiyama-foundation.org/weblog/ — 2011, 2016, 2018, 2021等の授賞式記録\n- 秋山ブログ授賞式記事: http://blog.akiyama-foundation.org/weblog/?p=18601 （2013）, http://blog.akiyama-foundation.org/weblog/?p=43037 （2021）, http://blog.akiyama-foundation.org/weblog/?p=6621 （2010）\n- トランク機械シアターCoRichプロフィール: https://stage.corich.jp/troupe/8436\n- RED KING CRAB公式: https://redkingcrab.wixsite.com/redkingcrab/about\n- 演劇家族スイートホーム公式: https://actfamilysweethome.wixsite.com/afsh\n- OrgofA公式: https://dtagmd.wixsite.com/orgofa\n- アクトコール業績一覧: http://www.actcall.net/works\n- TGR2021授賞式YouTube: https://www.youtube.com/watch?v=055ZnryerbU\n- 遠藤雷太のうろうろ日記２: https://endowriter2.hatenablog.jp/ — 2016, 2018, 2019授賞式記録\n- SaEKinトピックス: https://foot.hatenadiary.org/ — 2008-2011頃の札幌演劇情報\n- 札幌観劇人の語り場: http://kangekijin.com/ — 2017寄稿記事\n- CoRich舞台芸術: https://stage.corich.jp/ — 劇団プロフィール（受賞歴記載）\n- 弦巻楽団: https://tsurumaki-gakudan.com/\n- 座・れら: https://zarela2009.wixsite.com/za-rela/blank\n- トランク機械シアター: https://www.trunktheater.net/blank-2\n- yhs: https://www.yhsweb.jp/about\n- 劇団千年王國: https://sen-nen.org/\n- OrgofA: https://dtagmd.wixsite.com/orgofa\n- シアターZOO番組アーカイブ: http://www.h-paf.ne.jp/zoo/program-index/\n- SODANE（札幌演劇情報）: https://sodane.hokkaido.jp/\n- 北海道大学テラス 矢吹英孝: https://www.hokudai.ac.jp/terrace/performer/781/\n- 竹内実花関連サイト（サプライズ賞・にんぎょひめ）: https://www.ne.jp/asahi/butoh/itto/butoh_jp3.htm\n- YouTube授賞式アーカイブ（cube gardenチャンネル）: https://www.youtube.com/watch?v=055ZnryerbU （2021授賞式）\n\n## 調査上の注記\n\n- 2006: 北海道新聞2006年12月2日付記事により、大賞（弦巻楽団）と新人賞（劇団リベラルシアター）の存在を確認。従来の「単一賞制」推定は撤回。\n- 2008: 当時の公式全受賞一覧そのものは未発見だが、複数資料を横断して確認できる受賞は作品賞・特別賞・舞台美術賞の3賞のみ。本データではこの3賞を採用する。\n- 2009: 当時記事により5賞を一括確認。美術賞の対象作品も『金のひしゃく銀のひしゃく』と確定。\n- 2010: サプライズ賞は公式コンペの「大賞1・新人賞1・特別賞2」とは別枠で、審査員から授与された賞と確認。成文化された選考基準のみ未確認。\n- 2011: 座・れら『トランス』は当時審査員記録の「審査員奨励賞」を採用。後年の劇団公式「審査員特別奨励賞」と表記差あり。\n- 2022: オーディエンス賞はコロナ禍で休止。2023年公式パンフレットの「本年より再開」で確認。\n- 2025: TGR公式結果ページの「弦巻劇団」は誤記と判断し、参加作品ページ・劇団公式に合わせて「弦巻楽団」に修正。"
+}
