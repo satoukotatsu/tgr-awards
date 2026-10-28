@@ -35,7 +35,7 @@
 - 注記： TPS『西線11条のアリア』は劇団プロフィールに「優秀賞」とあるが、公式記録の受賞リストには記載なし。「最後まで大賞を争った」とのみ記録されており受賞ではなかったと判断
 - 出典: さっぽろアートステージ旧公式ページ（2007年受賞結果）（http://www.s-artstage.com/theater.html）, CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）
 
-## 2008年
+## 2008年（大賞の授与記録なし）
 
 - ○ 作品賞： 劇団プロスペクトTPS『秋のソナチネ』（アクトコール業績一覧に「札幌劇場祭2008札幌舞台芸術賞・作品賞受賞記念公演 TPS『秋のソナチネ』」と記載）
 - ○ 特別賞： 演劇ユニット イレブン☆ナイン『サイレンとサイレント』（劇団公式・CoRich記載）
@@ -44,7 +44,7 @@
 - 注記： 2008年当時の公式「全受賞一覧」そのものは未発見。ただし、複数の劇団・関係者資料および当時周辺記事を横断して確認できる受賞は上記3賞のみで、他賞の存在を示す記録は確認されていない。本データではこの3賞を2008年の受賞歴として採用する。
 - 出典: CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, イレブン☆ナイン公式（https://eleven9.jp/）, 弦巻楽団公式（https://tsurumaki-gakudan.com/08kodomonoyouni/）, foot.hatenadiary.org（2008/12/8 記事）（https://foot.hatenadiary.org/entry/20081208/1228746949）, アクトコール 業績一覧（http://www.actcall.net/works）
 
-## 2009年
+## 2009年（当時の賞名は「札幌舞台芸術賞」。演劇大賞の賞金は20万円）
 
 - ○ 演劇大賞： 劇団千年王國『贋作者』（劇団公式・CoRich記載）
 - ○ 脚本賞： 劇団動物園『ホテル山もみじ別館』（劇団動物園サイト記載）
@@ -78,7 +78,7 @@
 - 注記： 当時審査員・秋山孝二の2011年12月5日記事では『トランス』を「審査員奨励賞」として全受賞一覧に記載し、当時TGR公式結果にもリンクしている。後年の座・れら公式では「審査員特別奨励賞」と表記されるため、歴史資料上は当時表記の「審査員奨励賞」を採用。
 - 出典: 秋山孝二の部屋（2011年12月記事）（http://blog.akiyama-foundation.org/weblog/?m=201112）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）
 
-## 2012年
+## 2012年（札幌以外のカンパニーが初めて大賞を受賞）
 
 - ○ 大賞： 劇団弘前劇場『素麺』（弘前劇場公式・秋山ブログ等）
 - ○ 特別賞（作品賞）： intro『モスクワ』
@@ -90,9 +90,9 @@
 - ○ オーディエンス賞 ホームラン王： 劇団千年王國『火盗人』
 - ○ オーディエンス賞 首位打者： 人形劇集団チーム・パース『大どろぼうホッツェンプロッツ』
 - 注記： 当時の審査員・秋山孝二本人の記事が全賞を掲載しており、当時の公式結果ページ s-artstage.com/2012/news/2012/12/536/ を直接参照しているため一次情報として○に格上げ
-- 出典: 秋山孝二の部屋（審査員による全受賞結果の記録）（https://blog.akiyama-foundation.org/weblog/?s=弘前劇場）
+- 出典: 秋山孝二の部屋（審査員による全受賞結果の記録）（https://blog.akiyama-foundation.org/weblog/?s=弘前劇場）, 公式受賞発表（Wayback Machine）（http://web.archive.org/web/2013/http://www.s-artstage.com/2012/news/2012/12/536/）
 
-## 2013年
+## 2013年（大賞ノミネート5作品・新人賞ノミネート6作品から公開審査で選出）
 
 - ○ 大賞： 劇団千年王國『ローザ・ルクセンブルク』
 - ○ 特別賞（企画賞）： NPO法人コンカリーニョプロデュース『茶の間は血まみれ』
@@ -104,7 +104,7 @@
 - 注記： 特別賞受賞団体には特別協賛ローソンよりローソン特別賞（Lチキ半年分）も贈呈
 - 出典: 舞台制作PLUS+, 秋山孝二の部屋（授賞式レポート）（http://blog.akiyama-foundation.org/weblog/?p=18601）
 
-## 2014年
+## 2014年（海外の団体が初めて大賞を受賞。大賞エントリーは27団体）
 
 - ◎ 大賞： プロジェクト・アイランド（韓国・光州）『アイランド―監獄島』
 - ◎ 特別賞（作品賞）： 時間堂（東京）『衝突と分裂、あるいは融合』
@@ -115,7 +115,7 @@
 - ◎ オーディエンス賞 首位打者： 札幌放送芸術専門学校タレント総合科2年『BORDER～時をこえたmessage～』
 - 出典: 公式受賞発表（Wayback Machine）（http://web.archive.org/web/2015/http://www.s-artstage.com/2014/tgr2014/news/2014/12/257/）, 舞台制作PLUS+（受賞結果記事）（https://seisakuplus.com/news/?p=22310）
 
-## 2015年
+## 2015年（TGR10周年。新たな参加劇場も加わる）
 
 - ◎ 大賞： チェーホフ劇場（ロシア・ウラジオストク）『素晴らしい未来』
 - ◎ 特別賞（作品賞）： yhs『室温～夜の音楽～』
@@ -125,7 +125,7 @@
 - ◎ 審査員賞： トランク機械シアター『ねじまきロボットα～ぼくのうまれたひ～』
 - ◎ オーディエンス賞 ホームラン王： 演劇ユニット イレブン☆ナイン『どう、しよう、も、ない』
 - ◎ オーディエンス賞 首位打者： 札幌スクールオブミュージック&ダンス専門学校『Master Piece』
-- 出典: 公式受賞発表（Wayback Machine）（http://web.archive.org/web/20151217003755/http://www.s-artstage.com/2015/tgr2015/news/2015/12/189/）
+- 出典: 公式受賞発表（Wayback Machine）（http://web.archive.org/web/20151217003755/http://www.s-artstage.com/2015/tgr2015/news/2015/12/189/）, 公式ニュース「TGRは10周年！」（Wayback Machine）（http://web.archive.org/web/20151217003755/http://www.s-artstage.com/2015/tgr2015/news/2015/09/4/）
 
 ## 2016年（公開審査会の最終年）
 
@@ -184,7 +184,7 @@
 - ○ オーディエンス賞 首位打者： 人形劇団ありんこ『おおかみと七ひきのこやぎ』ほか
 - 出典: 遠藤雷太のうろうろ日記２（https://endowriter2.hatenablog.jp/entry/b5cff554fee17814dfddf9176b0bec0d）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（RED KING CRAB）（https://stage.corich.jp/troupe/19599）, 演劇家族スイートホーム公式（https://actfamilysweethome.wixsite.com/afsh）, RED KING CRAB公式（https://redkingcrab.wixsite.com/redkingcrab/about）, OrgofA公式（https://dtagmd.wixsite.com/orgofa）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿, 公式参加作品一覧（Wayback Machine）（http://web.archive.org/web/20191210182403/http://s-artstage.com/2019/tgr/）
 
-## 2020年
+## 2020年（新人賞・オーディエンス賞は実施せず）
 
 - ◎ 大賞： OrgofA『Org of A 3rd.act 異邦人の庭』
 - ◎ 優秀賞： 演劇ユニット41×46『雨の随に』
@@ -194,7 +194,7 @@
 - 公式注記：『本年は、新人賞・オーディエンス賞の実施、特別賞の受賞はありません』
 - 出典: さっぽろアートステージ2020（大賞・優秀賞の選評）（https://s-artstage.com/2020/category/tgr2020/）, RED KING CRAB公式（https://redkingcrab.wixsite.com/redkingcrab/about）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
 
-## 2021年
+## 2021年（オーディエンス賞は実施せず）
 
 - ◎ 大賞： ELEVEN NINES『ひかりごけ』
 - ◎ 優秀賞： Pityman『おもいだすまでまっていて』
@@ -207,7 +207,7 @@
 - 公式注記：『本年はオーディエンス賞の実施ありません』
 - 出典: さっぽろアートステージ2021（https://s-artstage.com/2021/422/）, 秋山孝二の部屋（授賞式レポート）（http://blog.akiyama-foundation.org/weblog/?p=43037）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, OrgofA公式（https://dtagmd.wixsite.com/orgofa）, YouTube 授賞式アーカイブ（https://www.youtube.com/watch?v=055ZnryerbU）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
 
-## 2022年
+## 2022年（オーディエンス賞は2020年から3年連続で実施なし）
 
 - ◎ 大賞： 弦巻楽団『#37 1/2 ピース・ピース』
 - ◎ 優秀賞： Stokes/Park『フゴッペ洞窟の翼をもつ人』
@@ -221,7 +221,7 @@
 - 注記： オーディエンス賞はコロナ禍で休止中。2023年公式パンフレットに「新型コロナウイルスの影響により休止していた『スタンプラリー』および『オーディエンス賞』を本年より再開」と明記。なおトランク機械シアター公式に「TGR2018・2022オーディエンス賞」との記載があるが公式記録と整合せず
 - 出典: さっぽろアートステージ2022 受賞結果（https://s-artstage.com/2022/457/）, さっぽろアートステージ2022 TGRページ（https://s-artstage.com/2022/category/tgr2022/）, さっぽろアートステージ2023 公式パンフレット（PDF）（https://s-artstage.com/2023/sapporo_art_stage_2023.pdf）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
 
-## 2023年
+## 2023年（参加30作品。オーディエンス賞が4年ぶりに再開）
 
 - ◎ 大賞： 劇団5454『宿りして』
 - ◎ 優秀賞： 弦巻楽団『#38 1/2 死と乙女』
@@ -232,9 +232,10 @@
 - ◎ 俳優賞： 渡沢陽人（劇団 風蝕異人街『嘘と鸚鵡と毛皮を着たヴィーナス』）
 - ◎ オーディエンス賞 ホームラン賞： トランク機械シアター『ねじまきロボットα～バクバク山のオバケ～』
 - ◎ オーディエンス賞 首位打者賞： 劇団HASCAP『おぉーい！ともだち!!』
-- 出典: さっぽろアートステージ2023 TGRページ（https://s-artstage.com/2023/category/tgr2023/）, さっぽろアートステージ2023 受賞団体の発表（https://s-artstage.com/2023/843/）
+- 注記： 参加作品数は公式TGRページの参加作品一覧の掲載件数（30件）。オーディエンス賞の再開は2023年公式パンフレットの記載による（2022年の調査メモ参照）。2019年以来の実施のため「4年ぶり」とした
+- 出典: さっぽろアートステージ2023 TGRページ（https://s-artstage.com/2023/category/tgr2023/）, さっぽろアートステージ2023 受賞団体の発表（https://s-artstage.com/2023/843/）, さっぽろアートステージ2023 TGR参加作品一覧（https://s-artstage.com/2023/tgr/）
 
-## 2024年
+## 2024年（参加26作品）
 
 - ◎ 大賞： PANCETTA『PANCETTA TOUR 2024 IN SAPPORO “声”』
 - ◎ 優秀賞： トランク機械シアター『ねじまきロボットα～こども王国の秘宝～』
@@ -247,7 +248,8 @@
 - ○ 俳優賞： 後藤カツキ（トランク機械シアター『ねじまきロボットα～こども王国の秘宝～』および劇団怪獣無法地帯『全員、青い』（2作品での受賞））（CoRich劇団プロフィール・公式X投稿）
 - ○ オーディエンス賞 ホームラン賞： トランク機械シアター『ねじまきロボットα～こども王国の秘宝～』
 - ○ オーディエンス賞 首位打者賞： わんわんズ『わんわんズ11周年記念公演』
-- 出典: さっぽろアートステージ2024（選評記事）（https://s-artstage.com/2024/category/tgr2024/）, yhs公式（https://www.yhsweb.jp/about）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
+- 注記： 参加作品数は公式TGRページの参加作品一覧の掲載件数（26件）。TGR公式Xの「26タイトルを上演」とも一致
+- 出典: さっぽろアートステージ2024（選評記事）（https://s-artstage.com/2024/category/tgr2024/）, yhs公式（https://www.yhsweb.jp/about）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿, さっぽろアートステージ2024 TGR参加作品一覧（https://s-artstage.com/2024/tgr/）
 
 ## 2025年（TGR20周年記念回。授賞式の模様はYouTubeで公開）
 

@@ -307,7 +307,15 @@ body {
   text-decoration: none;
 }
 
-.toc a:hover .toc-grand { color: var(--vermilion); }
+.toc a:hover .toc-name { color: var(--vermilion); }
+
+.toc-name, .toc-work { display: block; }
+
+.toc-work {
+  margin-top: .15em;
+  font-size: .8rem;
+  color: var(--muted);
+}
 
 .toc-year, .toc-folio {
   font-family: var(--display);

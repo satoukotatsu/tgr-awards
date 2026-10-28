@@ -165,9 +165,12 @@ def cover_html(data):
     toc = []
     for y in reversed(years):
         g = next(r for r in y["rows"] if r.get("grand"))
+        grand = '<span class="toc-name">{}</span>'.format(esc(g["recipient"]))
+        if g.get("work"):
+            grand += '<span class="toc-work">{}</span>'.format(esc(g["work"]))
         toc.append('      <li><a href="{}"><span class="toc-year">{}</span>'
                    '<span class="toc-grand">{}</span><span class="toc-folio">{}</span></a></li>'.format(
-                       page_file(y), y["year"], esc(g["recipient"]), edition(y)))
+                       page_file(y), y["year"], grand, edition(y)))
 
     main = """<main class="page cover">
   <header class="page-head">
