@@ -40,6 +40,13 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '&family=Shippori+Mincho:wght@400;500;700&display=swap" rel="stylesheet">')
 
 
+def contact_html(meta):
+    """誤りの指摘・掲載取り下げの連絡先。text 内の {link} をリンクに置き換える。"""
+    c = meta["contact"]
+    link = '<a href="{}">{}</a>'.format(esc(c["url"]), esc(c["label"]))
+    return esc(c["text"]).replace("{link}", link)
+
+
 def edition(y):
     """第N回。2006年が第1回で、ページ番号（ノンブル）にも使う。"""
     return y["year"] - 2005
@@ -152,7 +159,7 @@ def year_page_html(data, idx):
     for note in y.get("notes", []):
         out.append('  <p class="notes">{}</p>'.format(esc(note)))
     out += ["", sources_html(y), "", turn_html(prev, nxt), "",
-            '  <p class="disclaimer">{}</p>'.format(esc(meta["lead"])),
+            '  <p class="disclaimer">{}<br>{}</p>'.format(esc(meta["lead"]), contact_html(meta)),
             '  <footer class="folio">— {} —</footer>'.format(edition(y)),
             "</main>"]
 
@@ -214,6 +221,7 @@ def cover_html(data):
 
   <footer class="colophon">
     <p>{lead}</p>
+    <p>{contact}</p>
     <p>{footer}</p>
     <p>最終更新 {updated}</p>
   </footer>
@@ -223,7 +231,7 @@ def cover_html(data):
         title_phrases=" ".join('<span class="phrase">{}</span>'.format(esc(w)) for w in meta["title"].split()),
         intro=esc(meta["intro"]), toc="\n".join(toc),
         system=system_notes_html(meta["system_notes"]),
-        lead=esc(meta["lead"]), footer=esc(meta["footer"]), updated=esc(meta["updated"]))
+        lead=esc(meta["lead"]), contact=contact_html(meta), footer=esc(meta["footer"]), updated=esc(meta["updated"]))
     return page_shell(meta["title"] + UNOFFICIAL, meta["description"], spine_html(years), main)
 
 

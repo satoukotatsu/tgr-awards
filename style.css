@@ -358,6 +358,15 @@ body {
 
 .colophon p { margin: 0 0 .6em; }
 
+.disclaimer a, .colophon a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: .2em;
+}
+
+.disclaimer a:hover, .colophon a:hover { text-decoration-color: var(--vermilion); }
+
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: none; }
