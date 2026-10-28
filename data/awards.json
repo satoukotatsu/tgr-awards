@@ -611,7 +611,7 @@
       "rows": [
         {
           "award": "大賞",
-          "recipient": "チェーホフ劇場（ロシア・ウラジオストク）",
+          "recipient": "チェーホフ劇場（ロシア・サハリン）",
           "work": "『素晴らしい未来』",
           "acc": "◎",
           "grand": true
@@ -668,6 +668,9 @@
           "label": "公式ニュース「TGRは10周年！」（Wayback Machine）",
           "url": "http://web.archive.org/web/20151217003755/http://www.s-artstage.com/2015/tgr2015/news/2015/09/4/"
         }
+      ],
+      "research_notes": [
+        "チェーホフ劇場の所在地は、公式受賞発表の「ロシア・サハリンから参加したチェーホフ劇場」に従い、従来の「ウラジオストク」から修正"
       ]
     },
     {
