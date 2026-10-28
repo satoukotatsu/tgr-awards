@@ -68,6 +68,11 @@ body {
 
 .spine a:hover { color: var(--ink); }
 
+.spine .spine-toc {
+  font-family: var(--serif);
+  letter-spacing: .3em;
+}
+
 .spine a[aria-current="page"] {
   color: var(--ink);
   font-weight: 500;
@@ -163,6 +168,10 @@ body {
 
 .name {
   margin: 0;
+  /* 対応ブラウザでは文節単位で折り返す（未対応なら通常の折り返し）。
+     1文節が行幅を超える長い団体名は、はみ出さずに途中で折り返す */
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
   font-size: 1.55rem;
   font-weight: 500;
   line-height: 1.35;
@@ -253,6 +262,8 @@ body {
 }
 
 .cover-years span { margin: 0 .15em; color: var(--muted); }
+
+.cover-title .phrase { display: inline-block; }
 
 .cover-title h1 {
   margin: 24px 0 0;
@@ -363,26 +374,38 @@ body {
 @media (max-width: 799.98px) {
   body { padding-left: 0; }
 
+  /* 20年分を横に並べると今の年が画面外に隠れるため、
+     「目次」と今の年の前後2年ずつだけを出す。全年へは目次から行ける */
   .spine {
     position: static;
     width: auto;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 1.2em;
-    padding: 12px 20px;
-    overflow-x: auto;
-    white-space: nowrap;
-    scrollbar-width: none;
+    justify-content: center;
+    gap: 0;
+    padding: 4px 12px;
+    overflow: visible;
   }
 
   .spine a {
+    display: none;
     writing-mode: horizontal-tb;
-    padding: 0 0 .2em;
+    padding: 12px 8px;
     border-left: 0;
-    border-bottom: 2px solid transparent;
   }
 
-  .spine a[aria-current="page"] { border-bottom-color: var(--vermilion); }
+  .spine .spine-toc,
+  .spine a[aria-current="page"],
+  .spine a[aria-current="page"] + a,
+  .spine a[aria-current="page"] + a + a,
+  .spine a:has(+ a[aria-current="page"]),
+  .spine a:has(+ a + a[aria-current="page"]) { display: block; }
+
+  .spine .spine-toc { margin-right: 8px; }
+
+  .spine a[aria-current="page"] {
+    text-decoration: underline 2px var(--vermilion);
+    text-underline-offset: 6px;
+  }
 
   /* 版面枠（inset 16px）と文字が詰まらないよう、左右は枠の内側にさらに12px取る */
   .page {
@@ -390,12 +413,23 @@ body {
     padding: 40px 28px;
   }
 
+  .year { margin: 32px 0 28px; }
+
   .toc-head, .toc a { grid-template-columns: 3.5em 1fr 2em; }
 
   .winners li {
     grid-template-columns: 1fr;
     gap: .4em;
+    padding: 16px 0;
   }
 
   .award { padding-top: 0; }
+
+  .name { font-size: 1.3rem; }
+
+  .work { font-size: .9rem; }
+
+  /* 指で押しやすいよう前後の年のリンクに高さを持たせる */
+  .turn { margin-top: 32px; }
+  .turn a { padding: 12px 0; }
 }

@@ -47,7 +47,10 @@ def page_file(y):
 
 
 def spine_html(years, current=None):
-    out = ['<nav class="spine" aria-label="年">']
+    """current が None のときは表紙（目次）を現在ページとして扱う。"""
+    toc_cur = ' aria-current="page"' if current is None else ""
+    out = ['<nav class="spine" aria-label="年">',
+           '  <a class="spine-toc" href="index.html"{}>目次</a>'.format(toc_cur)]
     for y in reversed(years):
         cur = ' aria-current="page"' if y is current else ""
         out.append('  <a href="{}"{}>{}</a>'.format(page_file(y), cur, y["year"]))
@@ -180,7 +183,7 @@ def cover_html(data):
 
   <section class="cover-title">
     <p class="cover-years">{y0}<span>–</span>{y1}</p>
-    <h1>{title}</h1>
+    <h1>{title_phrases}</h1>
     <p class="intro">{intro}</p>
   </section>
 
@@ -203,7 +206,9 @@ def cover_html(data):
     <p>最終更新 {updated}</p>
   </footer>
 </main>""".format(
-        e1=edition(years[-1]), y0=y0, y1=y1, title=esc(meta["title"]),
+        e1=edition(years[-1]), y0=y0, y1=y1,
+        # 狭い画面で「受／賞歴」のように語の途中で折り返さないよう、空白区切りの語ごとに包む
+        title_phrases=" ".join('<span class="phrase">{}</span>'.format(esc(w)) for w in meta["title"].split()),
         intro=esc(meta["intro"]), toc="\n".join(toc),
         system=system_notes_html(meta["system_notes"]),
         lead=esc(meta["lead"]), footer=esc(meta["footer"]), updated=esc(meta["updated"]))
