@@ -50,7 +50,9 @@ def spine_html(years, current=None):
     """current が None のときは表紙（目次）を現在ページとして扱う。"""
     toc_cur = ' aria-current="page"' if current is None else ""
     out = ['<nav class="spine" aria-label="年">',
-           '  <a class="spine-toc" href="index.html"{}>目次</a>'.format(toc_cur)]
+           # 縦の背表紙では「目次」、スマホの上部バーではサイト名として表紙へ戻るリンクになる
+           '  <a class="spine-toc" href="index.html"{}><span class="spine-site">TGR受賞歴</span>'
+           '<span class="spine-toc-label">目次</span></a>'.format(toc_cur)]
     for y in reversed(years):
         cur = ' aria-current="page"' if y is current else ""
         out.append('  <a href="{}"{}>{}</a>'.format(page_file(y), cur, y["year"]))
@@ -120,12 +122,8 @@ def year_page_html(data, idx):
     g = next(r for r in y["rows"] if r.get("grand"))
 
     out = ['<main class="page">',
-           '  <header class="page-head">',
-           '    <a href="index.html">札幌劇場祭 TGR</a>',
-           "    <span>第{}回</span>".format(edition(y)),
-           "  </header>",
-           "",
            '  <section class="year">',
+           '    <p class="eyebrow">第{}回</p>'.format(edition(y)),
            "    <h1>{}</h1>".format(y["year"]),
            '    <span class="year-unit">年</span>']
     if y.get("label"):
@@ -176,12 +174,8 @@ def cover_html(data):
                        page_file(y), y["year"], grand, edition(y)))
 
     main = """<main class="page cover">
-  <header class="page-head">
-    <span>札幌劇場祭 TGR</span>
-    <span>第1回–第{e1}回</span>
-  </header>
-
   <section class="cover-title">
+    <p class="eyebrow">札幌劇場祭 TGR　第1回–第{e1}回</p>
     <p class="cover-years">{y0}<span>–</span>{y1}</p>
     <h1>{title_phrases}</h1>
     <p class="intro">{intro}</p>

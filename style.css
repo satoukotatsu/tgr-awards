@@ -11,6 +11,9 @@
   --vermilion: #d70015;
   --serif: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
   --display: "Cormorant Garamond", serif;
+  /* ナビ・回数などの案内はシステムのゴシックにし、本文の明朝と役割を分ける */
+  --sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP", "Yu Gothic UI", "Segoe UI", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,10 +57,10 @@ body {
 
 .spine a {
   writing-mode: vertical-rl;
-  font-family: var(--display);
-  font-weight: 300;
-  font-size: .8rem;
-  letter-spacing: .15em;
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: .06em;
   line-height: 1;
   color: var(--muted);
   text-decoration: none;
@@ -68,14 +71,13 @@ body {
 
 .spine a:hover { color: var(--ink); }
 
-.spine .spine-toc {
-  font-family: var(--serif);
-  letter-spacing: .3em;
-}
+.spine .spine-toc { letter-spacing: .2em; }
+
+.spine-site { display: none; }
 
 .spine a[aria-current="page"] {
   color: var(--ink);
-  font-weight: 500;
+  font-weight: 600;
   border-left-color: var(--vermilion);
 }
 
@@ -100,24 +102,23 @@ body {
   pointer-events: none;
 }
 
-.page-head {
-  display: flex;
-  justify-content: space-between;
+.eyebrow {
+  margin: 0 0 12px;
+  font-family: var(--sans);
   font-size: .75rem;
-  letter-spacing: .3em;
+  letter-spacing: .08em;
   color: var(--muted);
 }
-
-.page-head a { color: inherit; text-decoration: none; }
-.page-head a:hover { color: var(--ink); }
 
 .year {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0 .4rem;
-  margin: 48px 0 40px;
+  margin: 0 0 40px;
 }
+
+.year .eyebrow { flex-basis: 100%; }
 
 .year h1 {
   margin: 0;
@@ -225,8 +226,9 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
-  font-family: var(--display);
-  font-size: .95rem;
+  font-family: var(--sans);
+  font-size: .85rem;
+  font-variant-numeric: lining-nums tabular-nums;
   color: var(--muted);
 }
 
@@ -250,7 +252,7 @@ body {
 }
 
 /* 表紙 */
-.cover-title { margin: 56px 0 48px; }
+.cover-title { margin: 0 0 48px; }
 
 .cover-years {
   margin: 0;
@@ -374,38 +376,55 @@ body {
 @media (max-width: 799.98px) {
   body { padding-left: 0; }
 
-  /* 20年分を横に並べると今の年が画面外に隠れるため、
-     「目次」と今の年の前後2年ずつだけを出す。全年へは目次から行ける */
+  /* 上端に貼りつく1本のバー。左にサイト名（表紙へ）、右に前年・今年・翌年だけを出す。
+     20年分を並べると今の年が画面外に隠れるため。全年へは表紙の目次から行ける */
   .spine {
-    position: static;
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    z-index: 10;
     width: auto;
+    height: 48px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
     gap: 0;
-    padding: 4px 12px;
+    padding: 0 12px;
     overflow: visible;
+    background: color-mix(in srgb, var(--paper) 82%, transparent);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--rule);
   }
 
   .spine a {
     display: none;
+    align-items: center;
     writing-mode: horizontal-tb;
-    padding: 12px 8px;
+    padding: 0 10px;
+    font-size: .85rem;
+    letter-spacing: 0;
     border-left: 0;
   }
 
   .spine .spine-toc,
   .spine a[aria-current="page"],
   .spine a[aria-current="page"] + a,
-  .spine a[aria-current="page"] + a + a,
-  .spine a:has(+ a[aria-current="page"]),
-  .spine a:has(+ a + a[aria-current="page"]) { display: block; }
+  .spine a:has(+ a[aria-current="page"]) { display: flex; }
 
-  .spine .spine-toc { margin-right: 8px; }
-
-  .spine a[aria-current="page"] {
-    text-decoration: underline 2px var(--vermilion);
-    text-underline-offset: 6px;
+  .spine .spine-toc {
+    margin-right: auto;
+    padding-left: 4px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: var(--ink);
   }
+
+  .spine-site { display: inline; }
+  .spine-toc-label { display: none; }
+
+  /* 今の年は太字＋下端の赤い線。サイト名は表紙でも同じ見た目のまま */
+  .spine a[aria-current="page"]:not(.spine-toc) { box-shadow: inset 0 -2px var(--vermilion); }
 
   /* 版面枠（inset 16px）と文字が詰まらないよう、左右は枠の内側にさらに12px取る */
   .page {
@@ -413,7 +432,7 @@ body {
     padding: 40px 28px;
   }
 
-  .year { margin: 32px 0 28px; }
+  .year { margin: 0 0 28px; }
 
   .toc-head, .toc a { grid-template-columns: 3.5em 1fr 2em; }
 
