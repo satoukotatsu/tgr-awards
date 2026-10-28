@@ -91,14 +91,15 @@
         },
         {
           "label": "コンカリーニョ活動日誌（北海道新聞2006/12/2記事の転載）",
-          "url": "https://blog.livedoor.jp/shoot_the_works/archives/50324554.html"
+          "url": "http://blog.livedoor.jp/shoot_the_works/archives/50324554.html"
         },
         {
           "label": "劇団リベラルシアター公式",
           "url": "https://liberaltheater.web.fc2.com/"
         },
         {
-          "label": "札幌市『広報さっぽろ』2006年10月号"
+          "label": "札幌市『広報さっぽろ』2006年10月号",
+          "url": "https://www.city.sapporo.jp/somu/koho-shi/200610/b_index.html"
         },
         {
           "label": "TGR2006公式 参加作品一覧（Wayback Machine）",
@@ -181,8 +182,8 @@
           "url": "https://stage.corich.jp/troupe/298"
         },
         {
-          "label": "イレブン☆ナイン公式",
-          "url": "https://eleven9.jp/"
+          "label": "イレブン☆ナイン公式（Wayback Machine）",
+          "url": "http://web.archive.org/web/20260123143045/http://eleven9.jp/"
         },
         {
           "label": "弦巻楽団公式",
@@ -246,7 +247,7 @@
       "sources": [
         {
           "label": "Fringe（2009/12/10 受賞結果記事）",
-          "url": "https://fringe.jp/topics/headlines/20091210.html"
+          "url": "http://fringe.jp/topics/headlines/20091210.html"
         },
         {
           "label": "CoRich劇団プロフィール（劇団千年王國）",
@@ -319,8 +320,8 @@
           "url": "https://tsurumaki-gakudan.com/"
         },
         {
-          "label": "秋山孝二の部屋（2010年授賞式記事）",
-          "url": "http://blog.akiyama-foundation.org/weblog/?p=6621"
+          "label": "秋山孝二の部屋（2010年授賞式記事）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20221001050932/http://blog.akiyama-foundation.org/weblog/?p=6621"
         },
         {
           "label": "『にんぎょひめ』関係者サイト",
@@ -402,8 +403,8 @@
       ],
       "sources": [
         {
-          "label": "秋山孝二の部屋（2011年12月記事）",
-          "url": "http://blog.akiyama-foundation.org/weblog/?m=201112"
+          "label": "秋山孝二の部屋（2011年12月記事）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20260711013843/http://blog.akiyama-foundation.org/weblog/?m=201112"
         },
         {
           "label": "座・れら公式",
@@ -478,8 +479,8 @@
       ],
       "sources": [
         {
-          "label": "秋山孝二の部屋（審査員による全受賞結果の記録）",
-          "url": "https://blog.akiyama-foundation.org/weblog/?s=弘前劇場"
+          "label": "秋山孝二の部屋（審査員による全受賞結果の記録）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20200927075037/http://blog.akiyama-foundation.org/weblog/?s=%E5%BC%98%E5%89%8D%E5%8A%87%E5%A0%B4"
         },
         {
           "label": "公式受賞発表（Wayback Machine）",
@@ -543,11 +544,12 @@
       ],
       "sources": [
         {
-          "label": "舞台制作PLUS+"
+          "label": "舞台制作PLUS+（受賞結果記事）",
+          "url": "https://seisakuplus.com/news/?p=13807"
         },
         {
-          "label": "秋山孝二の部屋（授賞式レポート）",
-          "url": "http://blog.akiyama-foundation.org/weblog/?p=18601"
+          "label": "秋山孝二の部屋（授賞式レポート）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20251112080048/http://blog.akiyama-foundation.org/weblog/?p=18601"
         }
       ]
     },
@@ -728,8 +730,8 @@
       ],
       "sources": [
         {
-          "label": "秋山孝二の部屋（TGR2016授賞式記事）",
-          "url": "http://blog.akiyama-foundation.org/weblog/"
+          "label": "秋山孝二の部屋（TGR2016授賞式記事）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20260511154231/http://blog.akiyama-foundation.org/weblog/"
         },
         {
           "label": "遠藤雷太のうろうろ日記２",
@@ -890,8 +892,8 @@
       ],
       "sources": [
         {
-          "label": "秋山孝二の部屋（授賞式レポート）",
-          "url": "http://blog.akiyama-foundation.org/weblog/?p=34888"
+          "label": "秋山孝二の部屋（授賞式レポート）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20260510000020/http://blog.akiyama-foundation.org/weblog/?p=34888"
         },
         {
           "label": "遠藤雷太のうろうろ日記２（公式X引用）",
@@ -1009,7 +1011,8 @@
           "url": "https://dtagmd.wixsite.com/orgofa"
         },
         {
-          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿",
+          "url": "https://x.com/SAPPORO_TGR"
         },
         {
           "label": "公式参加作品一覧（Wayback Machine）",
@@ -1072,7 +1075,8 @@
           "url": "https://stage.corich.jp/troupe/8436"
         },
         {
-          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿",
+          "url": "https://x.com/SAPPORO_TGR"
         }
       ]
     },
@@ -1142,8 +1146,8 @@
           "url": "https://s-artstage.com/2021/422/"
         },
         {
-          "label": "秋山孝二の部屋（授賞式レポート）",
-          "url": "http://blog.akiyama-foundation.org/weblog/?p=43037"
+          "label": "秋山孝二の部屋（授賞式レポート）（Wayback Machine）",
+          "url": "http://web.archive.org/web/20260509230632/http://blog.akiyama-foundation.org/weblog/?p=43037"
         },
         {
           "label": "座・れら公式",
@@ -1158,7 +1162,8 @@
           "url": "https://www.youtube.com/watch?v=055ZnryerbU"
         },
         {
-          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿",
+          "url": "https://x.com/SAPPORO_TGR"
         }
       ]
     },
@@ -1231,7 +1236,8 @@
           "url": "https://s-artstage.com/2023/sapporo_art_stage_2023.pdf"
         },
         {
-          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿",
+          "url": "https://x.com/SAPPORO_TGR"
         }
       ],
       "research_notes": [
@@ -1411,7 +1417,8 @@
           "url": "https://stage.corich.jp/troupe/8436"
         },
         {
-          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿"
+          "label": "TGR公式X（@SAPPORO_TGR）受賞一覧投稿",
+          "url": "https://x.com/SAPPORO_TGR"
         },
         {
           "label": "さっぽろアートステージ2024 TGR参加作品一覧",

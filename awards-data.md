@@ -25,7 +25,7 @@
 - ○ 大賞： 弦巻楽団『#3 死にたいヤツら』（後年「TGR2006 大賞」と表記）
 - ○ 新人賞： 劇団リベラルシアター『FF』
 - 注記： 北海道新聞2006年12月2日付記事で、弦巻楽団が「大賞」、リベラルシアターが「新人賞」を受賞したことを確認。従来の「単一賞制だった可能性が高い」という推定は撤回する。リベラルシアターの受賞対象作『FF』は、札幌市のTGR2006参加作品一覧および劇団公式記録から確認。
-- 出典: 弦巻楽団公式（https://tsurumaki-gakudan.com/03shinitai/）, コンカリーニョ活動日誌（北海道新聞2006/12/2記事の転載）（https://blog.livedoor.jp/shoot_the_works/archives/50324554.html）, 劇団リベラルシアター公式（https://liberaltheater.web.fc2.com/）, 札幌市『広報さっぽろ』2006年10月号, TGR2006公式 参加作品一覧（Wayback Machine）（http://web.archive.org/web/20061107134412/http://www.sapporo-artstage.com/2006/stage.html）
+- 出典: 弦巻楽団公式（https://tsurumaki-gakudan.com/03shinitai/）, コンカリーニョ活動日誌（北海道新聞2006/12/2記事の転載）（http://blog.livedoor.jp/shoot_the_works/archives/50324554.html）, 劇団リベラルシアター公式（https://liberaltheater.web.fc2.com/）, 札幌市『広報さっぽろ』2006年10月号（https://www.city.sapporo.jp/somu/koho-shi/200610/b_index.html）, TGR2006公式 参加作品一覧（Wayback Machine）（http://web.archive.org/web/20061107134412/http://www.sapporo-artstage.com/2006/stage.html）
 
 ## 2007年（参加40作品中28作品が大賞エントリー／当時の賞名は「ライフコート札幌舞台芸術賞」）
 
@@ -42,7 +42,7 @@
 - ○ 舞台美術賞： 中川有子（弦巻楽団『#8 子供のように話したい』の舞台美術）（弦巻楽団公式記載）
 - 注記： この年は大賞の授与記録がなく、作品賞が最上位の賞（翌年に受賞記念公演を実施）
 - 注記： 2008年当時の公式「全受賞一覧」そのものは未発見。ただし、複数の劇団・関係者資料および当時周辺記事を横断して確認できる受賞は上記3賞のみで、他賞の存在を示す記録は確認されていない。本データではこの3賞を2008年の受賞歴として採用する。
-- 出典: CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, イレブン☆ナイン公式（https://eleven9.jp/）, 弦巻楽団公式（https://tsurumaki-gakudan.com/08kodomonoyouni/）, foot.hatenadiary.org（2008/12/8 記事）（https://foot.hatenadiary.org/entry/20081208/1228746949）, アクトコール 業績一覧（http://www.actcall.net/works）
+- 出典: CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, イレブン☆ナイン公式（Wayback Machine）（http://web.archive.org/web/20260123143045/http://eleven9.jp/）, 弦巻楽団公式（https://tsurumaki-gakudan.com/08kodomonoyouni/）, foot.hatenadiary.org（2008/12/8 記事）（https://foot.hatenadiary.org/entry/20081208/1228746949）, アクトコール 業績一覧（http://www.actcall.net/works）
 
 ## 2009年（当時の賞名は「札幌舞台芸術賞」。演劇大賞の賞金は20万円）
 
@@ -52,7 +52,7 @@
 - ○ 美術賞： 矢吹英孝（やまびこ座・こぐま座プロデュース『金のひしゃく銀のひしゃく』）
 - ○ パフォーマンス賞： 白A『テクノデリックコメディーショー』
 - 注記： 2009年12月10日の当時記事が上記5賞を一括して受賞結果として列挙。矢吹英孝の美術賞対象作品も『金のひしゃく銀のひしゃく』と確認できた。2011年資料からオーディエンス賞は2011年新設と確認されているため、2009年には存在しない。
-- 出典: Fringe（2009/12/10 受賞結果記事）（https://fringe.jp/topics/headlines/20091210.html）, CoRich劇団プロフィール（劇団千年王國）（https://stage.corich.jp/troupe/79）, CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, 北海道大学テラス（https://www.hokudai.ac.jp/terrace/performer/781/）
+- 出典: Fringe（2009/12/10 受賞結果記事）（http://fringe.jp/topics/headlines/20091210.html）, CoRich劇団プロフィール（劇団千年王國）（https://stage.corich.jp/troupe/79）, CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, 北海道大学テラス（https://www.hokudai.ac.jp/terrace/performer/781/）
 
 ## 2010年（公開審査会を初導入）
 
@@ -62,7 +62,7 @@
 - ○ 新人賞： 札幌学生演劇祭『ハイパーリアル』（2010年12月5日授賞式実況投稿より「結成3年以内の団体から選ばれる新人賞」と明記）
 - ○ サプライズ賞： 竹内実花（舞踏）×まっつ（ヨミガタリスト）『にんぎょひめ』（後年の関係者サイトに「2010年にアートステージ・サプライズ賞を獲得」「初演時（TGR2010）」と明記。審査委員長・桑田信治の評も転載）
 - 注記： 札幌市の公式事業記録では2010年の選定結果を「大賞1・新人賞1・特別賞2」と整理している。一方、『にんぎょひめ』関係者サイトに転載された「さっぽろアートステージ2010からの引用」では「審査員からのサプライズ賞が与えられました」と明記されているため、サプライズ賞は正式コンペ4枠とは別に審査員が授与した賞と整理する。成文化された制度上の選考基準は未確認。
-- 出典: CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, 弦巻楽団公式（https://tsurumaki-gakudan.com/）, 秋山孝二の部屋（2010年授賞式記事）（http://blog.akiyama-foundation.org/weblog/?p=6621）, 『にんぎょひめ』関係者サイト（https://www.ne.jp/asahi/butoh/itto/butoh_jp3.htm）, 札幌市 公式事業記録（PDF）（https://www.city.sapporo.jp/chosei/new-plan/h23soukatu/documents/186_511.pdf）, X上の授賞式実況投稿（2010年12月5日）
+- 出典: CoRich劇団プロフィール（劇団プロスペクトTPS）（https://stage.corich.jp/troupe/298）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, 弦巻楽団公式（https://tsurumaki-gakudan.com/）, 秋山孝二の部屋（2010年授賞式記事）（Wayback Machine）（http://web.archive.org/web/20221001050932/http://blog.akiyama-foundation.org/weblog/?p=6621）, 『にんぎょひめ』関係者サイト（https://www.ne.jp/asahi/butoh/itto/butoh_jp3.htm）, 札幌市 公式事業記録（PDF）（https://www.city.sapporo.jp/chosei/new-plan/h23soukatu/documents/186_511.pdf）, X上の授賞式実況投稿（2010年12月5日）
 
 ## 2011年（オーディエンス賞新設年／新人賞は結成3年以内の団体が対象）
 
@@ -76,7 +76,7 @@
 - ○ オーディエンス賞 ホームラン王賞： 劇団千年王國『狼王ロボ』
 - ○ オーディエンス賞 リーディングヒッター賞： 劇団千年王國『狼王ロボ』
 - 注記： 当時審査員・秋山孝二の2011年12月5日記事では『トランス』を「審査員奨励賞」として全受賞一覧に記載し、当時TGR公式結果にもリンクしている。後年の座・れら公式では「審査員特別奨励賞」と表記されるため、歴史資料上は当時表記の「審査員奨励賞」を採用。
-- 出典: 秋山孝二の部屋（2011年12月記事）（http://blog.akiyama-foundation.org/weblog/?m=201112）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）
+- 出典: 秋山孝二の部屋（2011年12月記事）（Wayback Machine）（http://web.archive.org/web/20260711013843/http://blog.akiyama-foundation.org/weblog/?m=201112）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）
 
 ## 2012年（札幌以外のカンパニーが初めて大賞を受賞）
 
@@ -90,7 +90,7 @@
 - ○ オーディエンス賞 ホームラン王： 劇団千年王國『火盗人』
 - ○ オーディエンス賞 首位打者： 人形劇集団チーム・パース『大どろぼうホッツェンプロッツ』
 - 注記： 当時の審査員・秋山孝二本人の記事が全賞を掲載しており、当時の公式結果ページ s-artstage.com/2012/news/2012/12/536/ を直接参照しているため一次情報として○に格上げ
-- 出典: 秋山孝二の部屋（審査員による全受賞結果の記録）（https://blog.akiyama-foundation.org/weblog/?s=弘前劇場）, 公式受賞発表（Wayback Machine）（http://web.archive.org/web/2013/http://www.s-artstage.com/2012/news/2012/12/536/）
+- 出典: 秋山孝二の部屋（審査員による全受賞結果の記録）（Wayback Machine）（http://web.archive.org/web/20200927075037/http://blog.akiyama-foundation.org/weblog/?s=%E5%BC%98%E5%89%8D%E5%8A%87%E5%A0%B4）, 公式受賞発表（Wayback Machine）（http://web.archive.org/web/2013/http://www.s-artstage.com/2012/news/2012/12/536/）
 
 ## 2013年（大賞ノミネート5作品・新人賞ノミネート6作品から公開審査で選出）
 
@@ -102,7 +102,7 @@
 - ○ オーディエンス賞 ホームラン王： 劇団千年王國『ローザ・ルクセンブルク』
 - ○ オーディエンス賞 首位打者： VoiceWorksVivo『聖歌～That's Why We Sing!!～』
 - 注記： 特別賞受賞団体には特別協賛ローソンよりローソン特別賞（Lチキ半年分）も贈呈
-- 出典: 舞台制作PLUS+, 秋山孝二の部屋（授賞式レポート）（http://blog.akiyama-foundation.org/weblog/?p=18601）
+- 出典: 舞台制作PLUS+（受賞結果記事）（https://seisakuplus.com/news/?p=13807）, 秋山孝二の部屋（授賞式レポート）（Wayback Machine）（http://web.archive.org/web/20251112080048/http://blog.akiyama-foundation.org/weblog/?p=18601）
 
 ## 2014年（海外の団体が初めて大賞を受賞。大賞エントリーは27団体）
 
@@ -137,7 +137,7 @@
 - ○ 審査員賞： 新芸能集団 乱拍子『いっすんさきは夢』
 - ○ オーディエンス賞 ホームラン王： トランク機械シアター『ねじまきロボットα～わすれんぼうの、つぎはぎ～』
 - ○ オーディエンス賞 首位打者： 新芸能集団 乱拍子『いっすんさきは夢』
-- 出典: 秋山孝二の部屋（TGR2016授賞式記事）（http://blog.akiyama-foundation.org/weblog/）, 遠藤雷太のうろうろ日記２（https://endowriter2.hatenablog.jp/entry/9fcbda5ad26f361ce35ad98b5ca14a91）
+- 出典: 秋山孝二の部屋（TGR2016授賞式記事）（Wayback Machine）（http://web.archive.org/web/20260511154231/http://blog.akiyama-foundation.org/weblog/）, 遠藤雷太のうろうろ日記２（https://endowriter2.hatenablog.jp/entry/9fcbda5ad26f361ce35ad98b5ca14a91）
 
 ## 2017年（「優秀賞」「俳優賞」新設、公開審査会廃止）
 
@@ -168,7 +168,7 @@
 - ○ オーディエンス賞 ホームラン王： トランク機械シアター『ねじまきロボットα～バクバク山のオバケ～』（獲得星総数1700）
 - ○ オーディエンス賞 首位打者： 人形劇団ぱぺっとグース『人形劇「舌きりすずめ」ほか』（平均4.88）
 - 注記： 小島瑚乃美の審査員賞は、俳優賞の対象（大賞エントリー作品の出演者）外の作品での演技に贈られたもの
-- 出典: 秋山孝二の部屋（授賞式レポート）（http://blog.akiyama-foundation.org/weblog/?p=34888）, 遠藤雷太のうろうろ日記２（公式X引用）（https://endowriter2.hatenablog.jp/entry/31930d80c58afe95bea37ba1b6f6bed2）
+- 出典: 秋山孝二の部屋（授賞式レポート）（Wayback Machine）（http://web.archive.org/web/20260510000020/http://blog.akiyama-foundation.org/weblog/?p=34888）, 遠藤雷太のうろうろ日記２（公式X引用）（https://endowriter2.hatenablog.jp/entry/31930d80c58afe95bea37ba1b6f6bed2）
 
 ## 2019年（参加32作品（うち大賞エントリー15作品＋4作品））
 
@@ -183,7 +183,7 @@
 - ○ 俳優賞： 井藤淳矢（RED KING CRAB『ありあけ』）（RKC公式記載）
 - ○ オーディエンス賞 ホームラン王： トランク機械シアター『ねじまきロボットα～ぼくは忍者の夢見丸～』
 - ○ オーディエンス賞 首位打者： 人形劇団ありんこ『おおかみと七ひきのこやぎ』ほか
-- 出典: 遠藤雷太のうろうろ日記２（https://endowriter2.hatenablog.jp/entry/b5cff554fee17814dfddf9176b0bec0d）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（RED KING CRAB）（https://stage.corich.jp/troupe/19599）, 演劇家族スイートホーム公式（https://actfamilysweethome.wixsite.com/afsh）, RED KING CRAB公式（https://redkingcrab.wixsite.com/redkingcrab/about）, OrgofA公式（https://dtagmd.wixsite.com/orgofa）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿, 公式参加作品一覧（Wayback Machine）（http://web.archive.org/web/20191210182403/http://s-artstage.com/2019/tgr/）
+- 出典: 遠藤雷太のうろうろ日記２（https://endowriter2.hatenablog.jp/entry/b5cff554fee17814dfddf9176b0bec0d）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（RED KING CRAB）（https://stage.corich.jp/troupe/19599）, 演劇家族スイートホーム公式（https://actfamilysweethome.wixsite.com/afsh）, RED KING CRAB公式（https://redkingcrab.wixsite.com/redkingcrab/about）, OrgofA公式（https://dtagmd.wixsite.com/orgofa）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿（https://x.com/SAPPORO_TGR）, 公式参加作品一覧（Wayback Machine）（http://web.archive.org/web/20191210182403/http://s-artstage.com/2019/tgr/）
 
 ## 2020年（新人賞・オーディエンス賞は実施せず）
 
@@ -193,7 +193,7 @@
 - ○ 俳優賞： 戸澤亮（RED KING CRAB『鈍行』）（RKC公式記載）
 - ○ 俳優賞： さとうともこ（トランク機械シアター『ねじまきロボットα～きらわれドロロンと、魔法の鏡～』）（CoRich劇団プロフィール記載）
 - 公式注記：『本年は、新人賞・オーディエンス賞の実施、特別賞の受賞はありません』
-- 出典: さっぽろアートステージ2020（大賞・優秀賞の選評）（https://s-artstage.com/2020/category/tgr2020/）, RED KING CRAB公式（https://redkingcrab.wixsite.com/redkingcrab/about）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
+- 出典: さっぽろアートステージ2020（大賞・優秀賞の選評）（https://s-artstage.com/2020/category/tgr2020/）, RED KING CRAB公式（https://redkingcrab.wixsite.com/redkingcrab/about）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿（https://x.com/SAPPORO_TGR）
 
 ## 2021年（オーディエンス賞は実施せず）
 
@@ -206,7 +206,7 @@
 - ○ 俳優賞： 竹江維子（座・れら『おやすみ、母さん』）（座・れら公式記載）
 - ○ 俳優賞： おぐりまさこ（OrgofA『ひびそい』（空宙空地所属））（OrgofA公式記載）
 - 公式注記：『本年はオーディエンス賞の実施ありません』
-- 出典: さっぽろアートステージ2021（https://s-artstage.com/2021/422/）, 秋山孝二の部屋（授賞式レポート）（http://blog.akiyama-foundation.org/weblog/?p=43037）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, OrgofA公式（https://dtagmd.wixsite.com/orgofa）, YouTube 授賞式アーカイブ（https://www.youtube.com/watch?v=055ZnryerbU）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
+- 出典: さっぽろアートステージ2021（https://s-artstage.com/2021/422/）, 秋山孝二の部屋（授賞式レポート）（Wayback Machine）（http://web.archive.org/web/20260509230632/http://blog.akiyama-foundation.org/weblog/?p=43037）, 座・れら公式（https://zarela2009.wixsite.com/za-rela/blank）, OrgofA公式（https://dtagmd.wixsite.com/orgofa）, YouTube 授賞式アーカイブ（https://www.youtube.com/watch?v=055ZnryerbU）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿（https://x.com/SAPPORO_TGR）
 
 ## 2022年（オーディエンス賞は2020年から3年連続で実施なし）
 
@@ -220,7 +220,7 @@
 - ○ 俳優賞： 中原くれあ（THEATRE MOMENTS『遺すモノ～楢山節考より～』）
 - 注記： オーディエンス賞は新型コロナウイルスの影響で休止（2023年より再開）
 - 注記： オーディエンス賞はコロナ禍で休止中。2023年公式パンフレットに「新型コロナウイルスの影響により休止していた『スタンプラリー』および『オーディエンス賞』を本年より再開」と明記。なおトランク機械シアター公式に「TGR2018・2022オーディエンス賞」との記載があるが公式記録と整合せず
-- 出典: さっぽろアートステージ2022 受賞結果（https://s-artstage.com/2022/457/）, さっぽろアートステージ2022 TGRページ（https://s-artstage.com/2022/category/tgr2022/）, さっぽろアートステージ2023 公式パンフレット（PDF）（https://s-artstage.com/2023/sapporo_art_stage_2023.pdf）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿
+- 出典: さっぽろアートステージ2022 受賞結果（https://s-artstage.com/2022/457/）, さっぽろアートステージ2022 TGRページ（https://s-artstage.com/2022/category/tgr2022/）, さっぽろアートステージ2023 公式パンフレット（PDF）（https://s-artstage.com/2023/sapporo_art_stage_2023.pdf）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿（https://x.com/SAPPORO_TGR）
 
 ## 2023年（参加30作品。オーディエンス賞が4年ぶりに再開）
 
@@ -250,7 +250,7 @@
 - ○ オーディエンス賞 ホームラン賞： トランク機械シアター『ねじまきロボットα～こども王国の秘宝～』
 - ○ オーディエンス賞 首位打者賞： わんわんズ『わんわんズ11周年記念公演』
 - 注記： 参加作品数は公式TGRページの参加作品一覧の掲載件数（26件）。TGR公式Xの「26タイトルを上演」とも一致
-- 出典: さっぽろアートステージ2024（選評記事）（https://s-artstage.com/2024/category/tgr2024/）, yhs公式（https://www.yhsweb.jp/about）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿, さっぽろアートステージ2024 TGR参加作品一覧（https://s-artstage.com/2024/tgr/）
+- 出典: さっぽろアートステージ2024（選評記事）（https://s-artstage.com/2024/category/tgr2024/）, yhs公式（https://www.yhsweb.jp/about）, トランク機械シアター公式（https://www.trunktheater.net/blank-2）, CoRich劇団プロフィール（トランク機械シアター）（https://stage.corich.jp/troupe/8436）, TGR公式X（@SAPPORO_TGR）受賞一覧投稿（https://x.com/SAPPORO_TGR）, さっぽろアートステージ2024 TGR参加作品一覧（https://s-artstage.com/2024/tgr/）
 
 ## 2025年（TGR20周年記念回。授賞式の模様はYouTubeで公開）
 
