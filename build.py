@@ -12,6 +12,9 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent
 DATA_FILE = BASE / "data" / "awards.json"
 
+# ブラウザのタブや検索結果で公式サイトと取り違えられないよう、<title> には必ず付ける
+UNOFFICIAL = "（非公式）"
+
 GENERATED_NOTICE = "このファイルは build.py により data/awards.json から自動生成されています。直接編集しないでください。"
 
 
@@ -153,7 +156,7 @@ def year_page_html(data, idx):
             '  <footer class="folio">— {} —</footer>'.format(edition(y)),
             "</main>"]
 
-    title = "{}年 | {}".format(y["year"], meta["title"])
+    title = "{}年 | {}{}".format(y["year"], meta["title"], UNOFFICIAL)
     desc = "{} {}年（第{}回）の受賞結果。大賞：{}{}。非公式のまとめ。".format(
         meta["title"], y["year"], edition(y), g["recipient"], g.get("work", ""))
     return page_shell(title, desc, spine_html(years, y), "\n".join(out))
@@ -221,7 +224,7 @@ def cover_html(data):
         intro=esc(meta["intro"]), toc="\n".join(toc),
         system=system_notes_html(meta["system_notes"]),
         lead=esc(meta["lead"]), footer=esc(meta["footer"]), updated=esc(meta["updated"]))
-    return page_shell(meta["title"], meta["description"], spine_html(years), main)
+    return page_shell(meta["title"] + UNOFFICIAL, meta["description"], spine_html(years), main)
 
 
 def system_notes_md(notes):
