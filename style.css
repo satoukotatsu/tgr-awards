@@ -11,9 +11,6 @@
   --vermilion: #d70015;
   --serif: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
   --display: "Cormorant Garamond", serif;
-  /* ナビ・回数などの案内はシステムのゴシックにし、本文の明朝と役割を分ける */
-  --sans: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
-    "Noto Sans JP", "Yu Gothic UI", "Segoe UI", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,7 +54,6 @@ body {
 
 .spine a {
   writing-mode: vertical-rl;
-  font-family: var(--sans);
   font-size: .72rem;
   font-variant-numeric: lining-nums tabular-nums;
   letter-spacing: .06em;
@@ -73,7 +69,7 @@ body {
 
 .spine .spine-toc { letter-spacing: .2em; }
 
-.spine-site { display: none; }
+.bar { display: none; }
 
 .spine a[aria-current="page"] {
   color: var(--ink);
@@ -104,7 +100,6 @@ body {
 
 .eyebrow {
   margin: 0 0 12px;
-  font-family: var(--sans);
   font-size: .75rem;
   letter-spacing: .08em;
   color: var(--muted);
@@ -226,7 +221,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
-  font-family: var(--sans);
   font-size: .85rem;
   font-variant-numeric: lining-nums tabular-nums;
   color: var(--muted);
@@ -376,55 +370,94 @@ body {
 @media (max-width: 799.98px) {
   body { padding-left: 0; }
 
-  /* 上端に貼りつく1本のバー。左にサイト名（表紙へ）、右に前年・今年・翌年だけを出す。
-     20年分を並べると今の年が画面外に隠れるため。全年へは表紙の目次から行ける */
-  .spine {
+  .spine { display: none; }
+
+  /* 上端に貼りつく1本のバー。左にサイト名（表紙へ）、右に今の年。
+     今の年をタップすると20年分のマス目が開く */
+  .bar {
     position: sticky;
     top: 0;
-    bottom: auto;
     z-index: 10;
-    width: auto;
-    height: 48px;
-    flex-direction: row;
-    justify-content: flex-start;
+    display: flex;
     align-items: stretch;
-    gap: 0;
-    padding: 0 12px;
-    overflow: visible;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 8px 0 16px;
     background: color-mix(in srgb, var(--paper) 82%, transparent);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     border-bottom: 1px solid var(--rule);
   }
 
-  .spine a {
-    display: none;
+  .bar-site {
+    display: flex;
     align-items: center;
-    writing-mode: horizontal-tb;
-    padding: 0 10px;
-    font-size: .85rem;
-    letter-spacing: 0;
-    border-left: 0;
+    font-weight: 700;
+    font-size: .95rem;
+    letter-spacing: .04em;
+    color: var(--ink);
+    text-decoration: none;
   }
 
-  .spine .spine-toc,
-  .spine a[aria-current="page"],
-  .spine a[aria-current="page"] + a,
-  .spine a:has(+ a[aria-current="page"]) { display: flex; }
-
-  .spine .spine-toc {
-    margin-right: auto;
-    padding-left: 4px;
-    font-weight: 600;
-    letter-spacing: .02em;
+  .bar-years summary {
+    display: flex;
+    align-items: center;
+    gap: .15em;
+    height: 100%;
+    padding: 0 8px;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-variant-numeric: lining-nums;
     color: var(--ink);
   }
 
-  .spine-site { display: inline; }
-  .spine-toc-label { display: none; }
+  .bar-years summary::-webkit-details-marker { display: none; }
 
-  /* 今の年は太字＋下端の赤い線。サイト名は表紙でも同じ見た目のまま */
-  .spine a[aria-current="page"]:not(.spine-toc) { box-shadow: inset 0 -2px var(--vermilion); }
+  .bar-unit {
+    font-weight: 400;
+    font-size: .8rem;
+    color: var(--muted);
+  }
+
+  /* 開閉を示す山形。開くと上向きになる */
+  .bar-years summary::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-left: .5em;
+    border-right: 1.5px solid var(--muted);
+    border-bottom: 1.5px solid var(--muted);
+    transform: translateY(-2px) rotate(45deg);
+  }
+
+  .bar-years[open] summary::after { transform: translateY(2px) rotate(-135deg); }
+
+  .bar-years nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 8px 12px 16px;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    box-shadow: 0 16px 32px -16px rgba(0, 0, 0, .25);
+  }
+
+  .bar-years nav a {
+    padding: 12px 0;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .bar-years nav a[aria-current="page"] {
+    font-weight: 700;
+    color: var(--vermilion);
+  }
 
   /* 版面枠（inset 16px）と文字が詰まらないよう、左右は枠の内側にさらに12px取る */
   .page {

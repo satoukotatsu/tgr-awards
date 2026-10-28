@@ -47,16 +47,31 @@ def page_file(y):
 
 
 def spine_html(years, current=None):
-    """current が None のときは表紙（目次）を現在ページとして扱う。"""
+    """PCの縦の背表紙と、スマホの上部バー（年の選択つき）。
+    current が None のときは表紙（目次）を現在ページとして扱う。"""
     toc_cur = ' aria-current="page"' if current is None else ""
-    out = ['<nav class="spine" aria-label="年">',
-           # 縦の背表紙では「目次」、スマホの上部バーではサイト名として表紙へ戻るリンクになる
-           '  <a class="spine-toc" href="index.html"{}><span class="spine-site">TGR受賞歴</span>'
-           '<span class="spine-toc-label">目次</span></a>'.format(toc_cur)]
+    links = []
     for y in reversed(years):
         cur = ' aria-current="page"' if y is current else ""
-        out.append('  <a href="{}"{}>{}</a>'.format(page_file(y), cur, y["year"]))
+        links.append('<a href="{}"{}>{}</a>'.format(page_file(y), cur, y["year"]))
+
+    out = ['<nav class="spine" aria-label="年">',
+           '  <a class="spine-toc" href="index.html"{}>目次</a>'.format(toc_cur)]
+    out += ["  " + a for a in links]
     out.append("</nav>")
+
+    # スマホでは背表紙の代わりにこのバーを出す。JSなしで開閉できるよう <details> を使う
+    if current:
+        summary = '{}<span class="bar-unit">年</span>'.format(current["year"])
+    else:
+        summary = "年を選ぶ"
+    out += ['<header class="bar">',
+            '  <a class="bar-site" href="index.html">TGR受賞歴</a>',
+            '  <details class="bar-years">',
+            "    <summary>{}</summary>".format(summary),
+            '    <nav aria-label="年">']
+    out += ["      " + a for a in links]
+    out += ["    </nav>", "  </details>", "</header>"]
     return "\n".join(out)
 
 
