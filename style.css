@@ -1,38 +1,34 @@
 /* TGR札幌劇場祭 受賞歴 — build.py で生成される index.html 用スタイル */
 
+/* 無彩色＋青1色。階層は明度差・線・太さで示し、色相だけに頼らない */
 :root {
-  --wrap: 880px;
-  --bg: #f7f5f0;
-  --card: #fffdf9;
-  --fg: #262b36;
-  --muted: #6b7280;
-  --border: #e3ddce;
-  --border-strong: #c6bfae;
-  --accent: #33507a;
-  --row-hover: #f3efe4;
-  --gold: #b8943f;
-  --gold-ink: #7c5f20;
-  --grand-bg: #f7efd8;
-  --grand-hover: #f2e7c8;
-  --shadow: 0 1px 2px rgba(20, 25, 40, .05);
-  --serif: "Hiragino Mincho ProN", "Hiragino Mincho Pro",
-    "Yu Mincho", YuMincho, "Noto Serif JP", "Noto Serif CJK JP", serif;
+  color-scheme: light dark;
+  --wrap: 960px;
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --surface: #f6f7f9;
+  --hover: #eef0f3;
+  --fg: #1a1d23;
+  --muted: #4a5160;
+  --border: #d9dce1;
+  --border-strong: #9ba1ab;
+  --accent: #1e40af;
+  --accent-bg: #eef2fc;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .06);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #12151d;
-    --card: #1a1f2b;
-    --fg: #dfe4ee;
-    --muted: #9aa5b5;
-    --border: #2e3547;
-    --border-strong: #434c63;
-    --accent: #93b4de;
-    --row-hover: #222839;
-    --gold: #c9a556;
-    --gold-ink: #d9ba6f;
-    --grand-bg: #332d1b;
-    --grand-hover: #3d3620;
+    --bg: #0f1115;
+    --card: #171a21;
+    --surface: #1e222b;
+    --hover: #232833;
+    --fg: #e8eaee;
+    --muted: #b4bac5;
+    --border: #2e333d;
+    --border-strong: #5b6270;
+    --accent: #8ab4ff;
+    --accent-bg: #1c2638;
     --shadow: none;
   }
 }
@@ -52,198 +48,276 @@ body {
   padding: 0 0 72px;
 }
 
-/* ヘッダー以外を中央カラムに揃える（ヘッダーは画面全幅） */
+/* ヘッダー以外を中央カラムに揃える（ヘッダーは背景だけ画面全幅） */
 .layout, footer {
   width: min(var(--wrap), calc(100% - 40px));
   margin-left: auto;
   margin-right: auto;
 }
 
-/* 劇場の暗がりをイメージしたヘッダー帯 */
 header {
-  background: linear-gradient(165deg, #23283a 0%, #1a1d29 55%, #151824 100%);
-  border-bottom: 3px solid var(--gold);
-  padding: 56px max(20px, calc((100% - var(--wrap)) / 2)) 44px;
-  margin-bottom: 2rem;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  padding: 72px max(20px, calc((100% - var(--wrap)) / 2)) 56px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: center;
 }
+.hero-art { order: -1; max-width: 260px; margin: 0 auto; width: 100%; }
+.stage { display: block; width: 100%; height: auto; }
 
-header h1 {
-  font-family: var(--serif);
-  font-feature-settings: "palt";
-  font-size: clamp(1.6rem, 1.15rem + 2vw, 2.05rem);
-  font-weight: 600;
+.eyebrow {
+  color: var(--accent);
+  font-size: .875rem;
+  font-weight: 700;
   letter-spacing: .08em;
-  color: #f2eede;
+  margin: 0 0 .5em;
+}
+header h1 {
+  font-feature-settings: "palt";
+  font-size: clamp(2rem, 1.4rem + 2.6vw, 2.9rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--fg);
   margin: 0 0 .6em;
+  /* 和文の任意位置で折れて「受賞/歴」のように割れるのを防ぎ、タイトル内の空白で折り返させる */
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+header p { margin: .55em 0; }
+header .intro { color: var(--muted); font-size: 1rem; }
+header .lead { color: var(--muted); font-size: .9rem; }
+
+@media (min-width: 800px) {
+  header { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 48px; }
+  .hero-art { order: 0; max-width: none; margin: 0; }
 }
 
-header p {
-  color: #b6bdcc;
-  margin: .55em 0;
-  font-size: .95rem;
+.stage-banner, .stage-curtain { fill: var(--accent-bg); stroke: var(--accent); stroke-width: 2; }
+.stage-fold { fill: none; stroke: var(--accent); stroke-width: 2; opacity: .5; }
+.stage-spot { fill: var(--accent); opacity: .12; stroke: none; }
+.stage-floor { fill: var(--surface); stroke: var(--border-strong); stroke-width: 2; }
+.stage-trophy { fill: none; stroke: var(--accent); stroke-width: 3; }
+.stage-cup { fill: var(--accent-bg); }
+
+.icon { flex: none; }
+
+/* 数字の帯 */
+.stats {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
 }
-header .lead { color: #d5d0bd; }
+.stats li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  padding: 16px 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.stats .icon { color: var(--accent); }
+.stats p { margin: 0; }
+.stat-num {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+  color: var(--fg);
+}
+.stat-label { font-size: .875rem; color: var(--muted); line-height: 1.4; }
 
 h2 {
-  font-family: var(--serif);
   font-feature-settings: "palt";
-  font-size: 1.35rem;
-  font-weight: 600;
-  letter-spacing: .05em;
+  font-size: 1.5rem;
+  font-weight: 800;
   margin: 0 0 .6em;
-  padding-left: .55em;
-  border-left: 3px solid var(--gold);
+  padding-left: 0;
+  border-left: none;
 }
 
 p { margin: .6em 0; }
 ul { margin: .4em 0 .8em; padding-left: 1.6em; }
 li { margin: .25em 0; }
-a { color: var(--accent); }
+a { color: var(--accent); text-underline-offset: .2em; }
 
-/* サイド目次：狭い画面では横スクロールのピル型ナビ */
-.sidenav-title { display: none; }
-.yearnav {
-  display: flex;
-  gap: .45rem;
-  overflow-x: auto;
-  padding: .4rem .1rem .6rem;
-  margin-top: 0;
-  scrollbar-width: none;
-}
-.yearnav::-webkit-scrollbar { display: none; }
-.yearnav a {
-  flex: 0 0 auto;
-  padding: .28em .9em;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--card);
-  color: var(--fg);
-  text-decoration: none;
-  font-size: .85rem;
-  white-space: nowrap;
-  transition: background-color .15s, border-color .15s, color .15s;
-}
-.yearnav a:hover {
-  background: var(--grand-bg);
-  border-color: var(--gold);
-  color: var(--gold-ink);
-}
-
-/* PCフル表示：左に固定の年別目次 */
-@media (min-width: 1080px) {
-  .layout {
-    display: flex;
-    gap: 2.4rem;
-    align-items: flex-start;
-    width: min(1180px, calc(100% - 48px));
-  }
-  .sidenav {
-    position: sticky;
-    top: 28px;
-    flex: 0 0 132px;
-    max-height: calc(100vh - 56px);
-    overflow-y: auto;
-    scrollbar-width: thin;
-  }
-  .sidenav-title {
-    display: block;
-    font-family: var(--serif);
-    font-size: .8rem;
-    letter-spacing: .18em;
-    color: var(--muted);
-    margin: 0 0 .7em;
-    padding-left: .2em;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: .5em;
-  }
-  .yearnav {
-    flex-direction: column;
-    gap: .05rem;
-    overflow-x: visible;
-    padding: 0;
-  }
-  .yearnav a {
-    display: block;
-    border: none;
-    border-radius: 6px;
-    background: none;
-    padding: .32em .8em;
-    color: var(--muted);
-  }
-  .yearnav a:hover {
-    background: var(--grand-bg);
-    color: var(--gold-ink);
-  }
-  .content { flex: 1; min-width: 0; }
-  .content > section:first-child { margin-top: 0; }
-  header { padding-left: max(24px, calc((100% - 1180px) / 2 + 170px)); }
+summary:focus-visible, a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 /* セクションカード */
 section {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: var(--shadow);
   padding: 24px 26px;
-  margin-top: 1.8rem;
+  margin-top: 2rem;
   scroll-margin-top: 20px;
 }
-section:target { border-color: var(--gold); }
-section#about { font-size: .95rem; }
+section.latest { border-color: var(--border-strong); }
+section:target { border-color: var(--accent); }
+section#about {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
 
 .note {
-  font-size: .85rem;
+  font-size: .9rem;
   color: var(--muted);
   margin: .3em 0 .7em;
 }
 
-/* テーブル（外枠＋横罫線のみ。モバイルは横スクロール） */
-.table-wrap { overflow-x: auto; margin: .9em 0 1.1em; }
-table {
-  border-collapse: collapse;
-  width: 100%;
-  min-width: 34em;
-  font-size: .9rem;
-  border: 1px solid var(--border);
+.year-head { display: flex; align-items: center; gap: .7em; margin-bottom: .6em; }
+.year-head h2 { margin: 0; }
+.badge {
+  font-size: .78rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: .4em .85em;
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  letter-spacing: .08em;
 }
-th, td {
-  padding: 9px 12px;
-  text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid var(--border);
+
+/* 左の太線で、色が区別できなくても強調が伝わるようにする */
+.grand-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 16px;
+  align-items: center;
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  padding: 18px 22px;
+  margin: 1em 0 1.2em;
 }
-th {
+.grand-feature p { margin: 0; grid-column: 1; }
+.grand-icon { grid-column: 2; grid-row: 1 / span 3; color: var(--accent); }
+.grand-award {
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: .1em;
+}
+.grand-recipient {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--fg);
+  line-height: 1.4;
+  margin: .15em 0 .1em;
+}
+.grand-work { color: var(--fg); }
+
+.award-list {
+  display: grid;
+  grid-template-columns: minmax(8em, 13.5em) 1fr;
+  margin: .6em 0 1em;
+  font-size: 1rem;
+}
+.award-list dt, .award-list dd {
+  margin: 0;
+  padding: .55em 0;
+  border-top: 1px solid var(--border);
+}
+.award-list dt:first-of-type, .award-list dt:first-of-type + dd { border-top: none; }
+.award-list dt { color: var(--muted); padding-right: 1em; }
+.award-list dd { color: var(--fg); }
+.award-list .work, .past .work { color: var(--muted); }
+
+/* 過去の受賞：1枚のカード内に年ごとの折りたたみを並べる */
+.past details.year { border-top: 1px solid var(--border); }
+.past-head + details.year { border-top: none; }
+.past-head, details.year > summary {
+  display: grid;
+  grid-template-columns: 3.6em minmax(0, 14em) minmax(0, 1fr) 1em;
+  align-items: baseline;
+  column-gap: 1em;
+  padding: .7em .5em;
+  cursor: pointer;
+  list-style: none;
+  font-variant-numeric: tabular-nums;
+}
+.past-head {
+  padding-top: 0;
+  padding-bottom: .3em;
   border-bottom: 1px solid var(--border-strong);
-  font-weight: 600;
-  font-size: .82rem;
-  letter-spacing: .04em;
   color: var(--muted);
+}
+/* グリッド列幅は em 指定なので、文字だけ縮めて summary と列を揃える */
+.past-head span { font-size: .8rem; letter-spacing: .06em; }
+details.year > summary::-webkit-details-marker { display: none; }
+details.year > summary::after {
+  content: "";
+  width: .5em;
+  height: .5em;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg);
+  justify-self: end;
+  align-self: center;
+  transition: transform .15s;
+}
+details.year[open] > summary::after { transform: rotate(-135deg); }
+details.year[open] > summary { background: var(--surface); }
+details.year > summary:hover { background: var(--hover); }
+summary .y { font-weight: 700; color: var(--fg); }
+summary .who { font-weight: 700; color: var(--fg); }
+details.year[open] > summary .y { color: var(--accent); }
+summary .work {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
-tbody tr:last-child td { border-bottom: none; }
-tbody tr:hover td { background: var(--row-hover); }
+.year-body { padding: .2em .5em 1em calc(3.6em + 1em + .5em); }
 
-/* 大賞行：金色の背景と賞名の装飾 */
-tr.grand td {
-  background: var(--grand-bg);
-  font-weight: bold;
+/* 賞のしくみ */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
 }
-tbody tr.grand:hover td { background: var(--grand-hover); }
-tr.grand td:first-child { color: var(--gold-ink); }
-tr.grand td:first-child::before {
-  content: "";
-  display: inline-block;
-  width: 3px;
-  height: 1.05em;
-  margin-right: .55em;
-  border-radius: 1px;
-  background: var(--gold);
-  vertical-align: -0.18em;
+.about-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 20px 22px;
 }
+.about-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+.about-card h3 {
+  font-feature-settings: "palt";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: .8em 0 .3em;
+}
+.about-card p { margin: 0; color: var(--muted); font-size: .95rem; }
+.about-card ul { margin: .6em 0 0; padding-left: 1.3em; color: var(--muted); font-size: .9rem; }
 
 .sources {
-  font-size: .82rem;
+  font-size: .875rem;
   color: var(--muted);
 }
 .sources ul { margin: .2em 0 0; }
@@ -253,7 +327,7 @@ footer {
   margin-top: 3.5em;
   padding-top: 1.4em;
   border-top: 1px solid var(--border);
-  font-size: .8rem;
+  font-size: .875rem;
   color: var(--muted);
   text-align: center;
 }
@@ -261,7 +335,26 @@ footer p { margin: .4em 0; }
 
 @media (max-width: 640px) {
   body { padding-bottom: 56px; }
-  header { padding: 40px 20px 34px; }
+  header { padding: 40px 20px 32px; }
+  .stats, .about-grid { grid-template-columns: 1fr; }
   section { padding: 16px; }
   h2 { font-size: 1.2rem; }
+  .grand-recipient { font-size: 1.35rem; }
+  .past-head { display: none; }
+  .award-list { grid-template-columns: 1fr; }
+  .award-list dt { padding: .55em 0 0; border-bottom: none; }
+  .award-list dd { border-top: none; padding-top: .1em; }
+  .award-list dt:first-of-type { border-top: none; }
+  details.year > summary {
+    grid-template-columns: 3.4em minmax(0, 1fr) 1em;
+    row-gap: .1em;
+  }
+  summary .work { grid-column: 2 / 3; grid-row: 2; white-space: normal; }
+  summary::after { grid-column: 3; grid-row: 1; }
+  .year-body { padding-left: .5em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  details.year > summary::after { transition: none; }
 }
