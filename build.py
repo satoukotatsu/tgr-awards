@@ -85,6 +85,12 @@ def spine_html(years, current=None):
     return "\n".join(out)
 
 
+def work_class(base, work):
+    # 明朝の『は字面の左半分が空きなので、そのまま置くと上の団体名より字下がりして見える。
+    # 『で始まる作品欄だけ CSS で半角ぶら下げるための印
+    return base + " quoted" if work.startswith("『") else base
+
+
 def winner_html(i, r):
     cls = []
     if r.get("grand"):
@@ -94,11 +100,14 @@ def winner_html(i, r):
     attr = ' class="{}"'.format(" ".join(cls)) if cls else ""
     body = '<p class="name">{}</p>'.format(esc(r["recipient"]))
     if r.get("work"):
-        body += '<p class="work">{}</p>'.format(esc(r["work"]))
+        body += '<p class="{}">{}</p>'.format(work_class("work", r["work"]), esc(r["work"]))
+    # 「オーディエンス賞 ホームラン賞」のように親賞と部門が空白で並ぶ賞名は、
+    # 1行で団体名の欄に迫らないよう部門を下段に落とす
+    award = "<br>".join(esc(a) for a in r["award"].split(" "))
     return ('    <li{} style="--i: {}">\n'
             '      <span class="award">{}</span>\n'
             '      <div>{}</div>\n'
-            '    </li>').format(attr, i, esc(r["award"]), body)
+            '    </li>').format(attr, i, award, body)
 
 
 def sources_html(y):
@@ -193,7 +202,7 @@ def cover_html(data):
         g = next(r for r in y["rows"] if r.get("grand"))
         grand = '<span class="toc-name">{}</span>'.format(esc(g["recipient"]))
         if g.get("work"):
-            grand += '<span class="toc-work">{}</span>'.format(esc(g["work"]))
+            grand += '<span class="{}">{}</span>'.format(work_class("toc-work", g["work"]), esc(g["work"]))
         toc.append('      <li><a href="{}"><span class="toc-year">{}</span>'
                    '<span class="toc-grand">{}</span><span class="toc-folio">{}</span></a></li>'.format(
                        page_file(y), y["year"], grand, edition(y)))

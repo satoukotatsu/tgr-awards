@@ -146,6 +146,7 @@ body {
 .winners li {
   display: grid;
   grid-template-columns: 13em 1fr;
+  column-gap: 2em;
   padding: 20px 0;
   border-top: 1px solid var(--rule);
   animation: fade-in 500ms both;
@@ -154,7 +155,7 @@ body {
 
 .award {
   padding-top: .45em;
-  font-size: .8rem;
+  font-size: .85rem;
   letter-spacing: .12em;
   color: var(--muted);
 }
@@ -178,9 +179,13 @@ body {
 
 .work {
   margin: .3em 0 0;
-  font-size: 1rem;
-  color: var(--muted);
+  font-size: 1.15rem;
+  color: var(--ink);
+  line-height: 1.5;
 }
+
+/* 『の左側の空きぶんをぶら下げ、作品名の字面を団体名の左端に揃える */
+.quoted { text-indent: -.5em; }
 
 .notes {
   margin: 20px 0 0;
@@ -488,7 +493,7 @@ body {
 
   .name { font-size: 1.3rem; }
 
-  .work { font-size: .9rem; }
+  .work { font-size: 1rem; }
 
   /* 指で押しやすいよう前後の年のリンクに高さを持たせる */
   .turn { margin-top: 32px; }
